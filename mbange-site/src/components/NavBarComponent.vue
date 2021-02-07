@@ -10,6 +10,7 @@
         <b-nav-item href="#">Home</b-nav-item>
         <b-nav-item href="#">Shopping</b-nav-item>
         <b-nav-item href="#">Guia Turístico</b-nav-item>
+        <b-nav-item href="#">Contacto</b-nav-item>
         <b-nav-item href="#" disabled>Disabled</b-nav-item>
       </b-navbar-nav>
 
