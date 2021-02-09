@@ -1,18 +1,22 @@
 <template>
   <div id="app">
-    <div>
-      
-      <nav-bar-component />
-      
-      <router-view/>
 
-      <footer-component />
-      
+    <b>        
+        <nav-bar-component />  
 
+      </b>
 
+      <b>
 
-    </div>
-    
+        <router-view/>
+
+      </b>
+
+      <b>
+
+        <footer-component />
+
+      </b>
   </div>
 </template>
 
@@ -32,15 +36,11 @@ export default {
 }
 </script>
 
-<style>
-  footer {
-    position: absolute;
-    bottom: 0;
-    background-color: blue;
-    color: #FFF;
-    width: 100%;
-    height: 100px;    
-    text-align: center;
-    line-height: 100px;
-}
+<style scoped>
+
+  #app{
+    background-color: #DCDCDC;
+        
+  }
+
 </style>
