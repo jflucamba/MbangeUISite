@@ -1,24 +1,46 @@
 <template>
   <div id="app">
-    <div>
-      
-      <NavBarComponent msg="Welcome to Your Vue.js App"/>
-    </div>
-    
+
+    <b>        
+        <nav-bar-component />  
+
+      </b>
+
+      <b>
+
+        <router-view/>
+
+      </b>
+
+      <b>
+
+        <footer-component />
+
+      </b>
   </div>
 </template>
 
 <script>
-import NavBarComponent from './components/NavBarComponent.vue'
+import NavBarComponent from './components/NavBarComponent'
+import FooterComponent from './components/FooterComponent'
+
+//import home from './views/home'
+//import Home from './views/home.vue'
 
 export default {
   name: 'App',
   components: {
-    NavBarComponent
+    NavBarComponent,
+    FooterComponent
   }
 }
 </script>
 
-<style>
+<style scoped>
+
+  #app{
+    background-color: #DCDCDC;
+        
+  }
 
 </style>

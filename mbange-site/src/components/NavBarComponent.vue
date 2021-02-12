@@ -1,16 +1,20 @@
 <template>
   <div>
-  <b-navbar toggleable="lg" type="dark" variant="dark">
-    <b-navbar-brand href="#">NavBar</b-navbar-brand>
+  <b-navbar toggleable="lg" type="dark" variant="primary">
+    <b-navbar-brand to="/">
+      <h1><a to="/">Mbange</a></h1>
+    </b-navbar-brand>
 
     <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
     <b-collapse id="nav-collapse" is-nav>
       <b-navbar-nav>
-        <b-nav-item href="#">Home</b-nav-item>
-        <b-nav-item href="#">Shopping</b-nav-item>
-        <b-nav-item href="#">Guia Turístico</b-nav-item>
-        <b-nav-item href="#" disabled>Disabled</b-nav-item>
+        <b-nav-item to="/">Home</b-nav-item>
+        <b-nav-item to="/shopping">Shopping</b-nav-item>
+        <b-nav-item to="/leisureSpace">Guia Turístico</b-nav-item>
+        <b-nav-item to="/plan">Planos</b-nav-item>
+        <b-nav-item to="/contact">Contacto</b-nav-item>
+        
       </b-navbar-nav>
 
       <!-- Right aligned nav items -->
@@ -20,12 +24,12 @@
           <b-button size="sm" class="my-2 my-sm-0" type="submit">Search</b-button>
         </b-nav-form>
 
-        <b-nav-item-dropdown text="Lang" right>
+        <!--b-nav-item-dropdown-- text="Lang" right>
           <b-dropdown-item href="#">EN</b-dropdown-item>
           <b-dropdown-item href="#">ES</b-dropdown-item>
           <b-dropdown-item href="#">RU</b-dropdown-item>
           <b-dropdown-item href="#">FA</b-dropdown-item>
-        </b-nav-item-dropdown>
+        </!--b-nav-item-dropdown-->
 
         <b-nav-item-dropdown right>
           <!-- Using 'button-content' slot -->
@@ -49,5 +53,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-
+  h1{
+    color: red;
+  }
 </style>
