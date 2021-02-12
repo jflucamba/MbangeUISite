@@ -7,7 +7,7 @@
           
           <b-row >
 
-            <b-col col sm = "3" >
+            <b-col col sm = "3" id="mbange" >
 
               <h3>Mbange</h3>
 
@@ -40,78 +40,67 @@
             
             </b-col > 
 
-            <b-col col sm = "3">
+            <b-col col sm = "3" id="sobre-nos">
 
-              <h3>Nossos parceiros</h3>
+              <h3>Sobre nós</h3>
 
-              <ul>
-                <li>
-                  <a href="#">
-                    DJ-Soft
-                  </a>
-                </li>
-
-                <li>
-                  <a href="#">
-                    Cinemax
-                  </a>
-                </li>
-
-                <li>
-                  <a href="#">
-                    Banco Sol
-                  </a>
-                </li>
-
-                <li>
-                  <a href="#">
-                    ITA
-                  </a>
-                </li>
-
-              </ul>
+              <p>
+                The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.
+              </p>
 
             </b-col > 
             
             <b-col col sm = "3" > 
             
-              <h3>Conexções</h3>
+              <h3>Conexões</h3>
 
-              <ul>
-                <li>
-                  <a href="#">
-                    Facebook
-                  </a>
-                </li>
+              <b-row> 
 
-                <li>
-                  <a href="#">
-                    YouTube
-                  </a>
-                </li>
+              <b-col>
+                  
+                <i class="fab fa-facebook fa-2x"></i>
 
-                <li>
-                  <a href="#">
-                    Instagram
-                  </a>
-                </li>
+              </b-col>
 
-                <li>
-                  <a href="#">
-                    Whatsapp
-                  </a>
-                </li>
 
-              </ul>  
+              <b-col>
+                  
+                  
+                <i class="fab fa-youtube fa-2x"></i>
+
+              </b-col> 
+
+
+              <b-col >
+                  
+                
+                <i class="fab fa-instagram fa-2x"></i>
+
+              </b-col> 
+
+
+              <b-col>                  
+                
+                <i class="fab fa-whatsapp fa-2x"></i>
+
+              </b-col>
+
+        </b-row>
+
+              
+
+               
             
             </b-col >
 
 
             <b-col col sm = "3" >
 
-              <h3>Localização</h3>
+              <h3>Newsletter</h3>
 
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31532.472609365024!2d13.173665169214686!3d-8.920517640147363!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1a51f53b60545d67%3A0xed624daf9afdcf09!2sTalatona!5e0!3m2!1spt-PT!2sao!4v1612810202677!5m2!1spt-PT!2sao" width="150" height="100" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+              <span>                
+                Fique atualizado com nossas últimas notícias
+              </span>
 
             </b-col >
              
@@ -145,7 +134,7 @@ export default {
 <style scoped>
 
   #footer-master{
-    background-color: slategrey;
+    background-color: black;
     color: white;
     
   }
@@ -161,15 +150,29 @@ export default {
 
   #footer-master ul {
     list-style-type: none;
+  }
+
+  #footer-master ul li{
+    
     text-align: left;
   }
 
   #footer-master ul li a{
     text-decoration: none;
     color: white;
-    text-align: left;
+    
   }
 
+
+#mbange{
+  color: red;
+}
+
+
+
+#sobre-nos{
+  text-align: justify;
+}
  
 
   /*footer {
