@@ -7,9 +7,9 @@
         <div>
           <b-card-group deck>
 
-            <b-card bg-variant="primary" text-variant="white" header="Luanda" class="text-center">
+            <a ><b-card bg-variant="primary" text-variant="white" header="Luanda" class="text-center">
               <b-card-text>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</b-card-text>
-            </b-card>
+            </b-card></a>
 
             <b-card bg-variant="secondary" text-variant="white" header="Benguela" class="text-center">
               <b-card-text>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</b-card-text>

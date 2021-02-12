@@ -1,18 +1,19 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Home from '../views/Home.vue'
-import Contact from '../views/Contact.vue'
-import Plan from '../views/Plan.vue'
-import LeisureSpace from '../views/LeisureSpace.vue'
-import Shopping from '../views/Shopping.vue'
+import Index from '../views/index.vue'
+import Contact from '../views/contact.vue'
+import Plan from '../views/plan.vue'
+import LeisureSpace from '../views/leisureSpace.vue'
+import Shopping from '../views/shopping.vue'
+import ShoppingCounty from '../views/shoppingCounty.vue'
 
 Vue.use(VueRouter)
 
   const routes = [
   {
     path: '/',
-    name: 'Home',
-    component: Home
+    name: 'index',
+    component: Index
   },
   {
     path: '/contact',
@@ -33,6 +34,11 @@ Vue.use(VueRouter)
     path: '/shopping',
     name: 'shopping',
     component: Shopping
+  },
+  {
+    path:'/shoppingCounty',
+    name:'shoppingCounty',
+    component: ShoppingCounty
   }
 ]
 
