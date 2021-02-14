@@ -114,17 +114,14 @@
           </b-row>
 
           <b-row id="footer-mbange" class="">
-            <b-col col sm = "12" > Conteúdo de largura variável </b-col >
 
-            <p>
-              Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil 
-              impedit quo minus id quod maxime placeat facere possimus, 
-              omnis voluptas assumenda est, omnis dolor repellendus. 
-              Temporibus autem quibusdam et aut officiis debitis aut 
-              rerum necessitatibus saepe eveniet ut et voluptates 
-              repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, 
-              ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."
-            </p>
+            <b-col col sm = "12" > 
+              
+              <h2>
+                Mbange
+              </h2> 
+
+            </b-col >
 
           </b-row>
 
