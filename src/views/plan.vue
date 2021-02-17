@@ -23,19 +23,8 @@
 
         <b-col col sm = "12">
 
-          <b-card-group deck >
-            <b-card bg-variant="primary" text-variant="white" header="Primary" class="text-center">
-              <b-card-text>
-                All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, 
-                making this the first true generator on the Internet. 
-                It uses a dictionary of over 200 Latin words, 
-                combined with a handful of model sentence structures, 
-                to generate Lorem Ipsum which looks reasonable.
-
-                <b-button href="#" variant="primary">Comprar plano</b-button>
-
-              </b-card-text>
-            </b-card> 
+          <b-card-group deck>
+            
             <b-card bg-variant="secondary" text-variant="white" header="Secondary" class="text-center">
               <b-card-text>
 
@@ -68,6 +57,25 @@
         
       </b-row>
 
+      <div>
+        
+        <form @submit.prevent="salvar">
+          <labe>Nome</labe>
+          <input type="text" placeholder="Nome" v-model="plano.name"> <br>
+          <labe>Descrição</labe>
+          <input type="text" placeholder="Descrição" v-model="plano.description"> <br>
+          <labe>Preço</labe>
+          <input type="text" placeholder="Preço" v-model="plano.price"> <br>
+          <button class="waves-effect eaves-light btn-small">
+            Salvar
+          </button>
+
+        </form>
+      </div>
+      
+
+
+
     </b-container>   
 
   </div> 
@@ -75,9 +83,51 @@
 
 
 <script>
+//import axios from 'axios';
+//import { response } from 'express';
+
+import plan from '../services/plans'
+//import { response } from 'express';
 export default {
+
+  data(){
+    return{
+      plano: {
+        name:'',
+        description:'',
+        price:''
+      },
+      planos: []
+    }
+  },
+  
+  mounted(){
+    
+
+    plan.listAll().then(
+      (resposta) => {
+        
+        this.planos=resposta.data
+        console.log(this.planos)
+      })
+      .catch(error => {
+        console.log(error.resposta)
+      });
+  },
+  methods:{
+    salvar(){
+
+      plan.salvar(this.plano).then(resposta => {
+        alert("Salvo com sucesso!")
+        console.log(resposta)
+      })
+
+    }
+  }
+    
     
 }
+
 </script>
 
 <style scoped>
