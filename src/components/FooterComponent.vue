@@ -19,7 +19,7 @@
                 </li>
 
                 <li>
-                  <a href="#">
+                  <a href="/shopping">
                     Shopping
                   </a>
                 </li>
@@ -96,11 +96,20 @@
 
             <b-col col sm = "3" >
 
-              <h3>Newsletter</h3>
+              
+              <b-row>
+                <b-col>
+                  <h3>Newsletter</h3>
+                </b-col>
+              </b-row>
+              
 
-              <span>                
-                Fique atualizado com nossas últimas notícias
-              </span>
+              <b-row>
+                <b-col>
+                  <input tex="email" />
+                  
+                </b-col>
+              </b-row>
 
             </b-col >
              

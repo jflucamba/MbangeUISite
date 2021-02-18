@@ -77,73 +77,102 @@
 
         </b-row>
 
+        
+
+        
+
+        
+
+        
+
         <b-row>
+
           <b-col>
-            <h3>
-              Serviços
-            </h3>
+
+            <label for="toggle-3">
+              <h3>Lojas</h3>
+          </label>
+          <input type="checkbox" id="toggle-3">
+          <div id="mostra">
+              <div>Avenida</div>
+              <div>Ginga Shopping</div>
+              <div>Xiame</div>
+              <div>Fortaleza</div>
+          </div>
+
           </b-col>
-        </b-row>
 
-        <b-row> 
+          <b-col>
+            
+            <label for="toggle-1">
+              <h3>Shopping</h3>
+          </label>
+          <input type="checkbox" id="toggle-1">
+          <div id="mostra">
+              <div>Avenida</div>
+              <div>Ginga Shopping</div>
+              <div>Xiame</div>
+              <div>Fortaleza</div>
+          </div>
 
-              
-              <b-col>
-                  <h4>Shopping</h4>
+          </b-col>
 
-                  <i class="fas fa-shopping-cart fa-10x"></i>
+          <b-col>
+            
+            <label for="toggle-2">
+              <h3>Produtos</h3>
+          </label>
+          <input type="checkbox" id="toggle-2">
+          <div id="mostra">
+              <div>Avenida</div>
+              <div>Ginga Shopping</div>
+              <div>Xiame</div>
+              <div>Fortaleza</div>
+          </div>
 
-                  <p>
-                      If you are going to use a passage of Lorem Ipsum, 
-                      you need to be sure there isn't anything embarrassing 
-                      hidden in the middle of text Shopping.
-                  </p>
+          </b-col>
 
-              </b-col>
+          <b-col>
+            
+            <label for="toggle-4">
+              <h3>Pontos Turísticos</h3>
+          </label>
+          <input type="checkbox" id="toggle-4">
+          <div id="mostra">
+              <div>Avenida</div>
+              <div>Ginga Shopping</div>
+              <div>Xiame</div>
+              <div>Fortaleza</div>
+          </div>
 
+          </b-col>
+          
 
-              <b-col>
-                  <h4>Guia Turístico</h4>
-
-                  <i class="fas fa-bus-alt fa-10x"></i>
-
-                  <p>
-                      If you are going to use a passage of Lorem Ipsum, 
-                      you need to be sure there isn't anything embarrassing 
-                      hidden in the middle of text.
-                  </p>
-
-              </b-col> 
-
-
-              <b-col >
-                  <h4>Paisagens</h4>
-
-                  <i class="fas fa-hotel fa-10x"></i>
-
-                  <p>
-                      If you are going to use a passage of Lorem Ipsum, 
-                      you need to be sure there isn't anything embarrassing 
-                      hidden in the middle of text.
-                  </p>
-
-              </b-col> 
-
-
-              <b-col>
-                  <h4>Hospedaria</h4>
-
-                  <i class="fas fa-umbrella-beach fa-10x"></i>
-
-                  <p>
-                      If you are going to use a passage of Lorem Ipsum, 
-                      you need to be sure there isn't anything embarrassing 
-                      hidden in the middle of text.
-                  </p>
-
-              </b-col>
+          
 
         </b-row>
+
+        <b-row>
+          
+          
+
+        </b-row>
+
+        <b-row>
+          
+
+          
+
+        </b-row>
+
+        <b-row>
+          
+
+          
+
+        </b-row>
+
+        
     
     </b-container>    
    
@@ -182,5 +211,54 @@ export default {
       width: 100%;
       height: 400px;
     }
+
+    /* Checkbox Hack 1*/
+  #toggle-1 {
+     display:none;
+  }
+
+  #toggle-2 {
+     display:none;
+  }
+
+  #toggle-3 {
+     display:none;
+  }
+
+  #toggle-4 {
+     display:none;
+  }
+
+  label { 
+    -webkit-appearance: push-button;
+    -moz-appearance: button; 
+    display: inline-block;
+    cursor: pointer;
+    padding: 5px;
+  }
+
+  /* CSS padrão da div */
+  #mostra {
+     display:none;
+  }
+
+  /* CSS quando o checkbox está marcado */
+  #toggle-1:checked ~ #mostra {
+     display:block;
+  }
+
+  #toggle-2:checked ~ #mostra {
+     display:block;
+  }
+
+  #toggle-3:checked ~ #mostra {
+     display:block;
+  }
+
+  #toggle-4:checked ~ #mostra {
+     display:block;
+  }
+
+
 
 </style>

@@ -6,6 +6,7 @@ import Plan from '../views/plan.vue'
 import LeisureSpace from '../views/leisureSpace.vue'
 import Shopping from '../views/shopping.vue'
 import ShoppingCounty from '../views/shoppingCounty.vue'
+import Loja from '../views/loja.vue'
 
 Vue.use(VueRouter)
 
@@ -39,7 +40,13 @@ Vue.use(VueRouter)
     path:'/shoppingCounty',
     name:'shoppingCounty',
     component: ShoppingCounty
+  },
+  {
+    path:'/loja',
+    name:'loja',
+    component: Loja
   }
+
 ]
 
 const router = new VueRouter({
