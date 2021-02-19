@@ -5,6 +5,12 @@
 
       <b-row>
         <b-col>
+          <carousel-component />
+        </b-col>
+      </b-row>
+
+      <b-row>
+        <b-col>
           <h2>
             Escolha o plano de acordo a sua preferência.
           </h2>
@@ -103,12 +109,19 @@
 
 
 <script>
+
+import CarouselComponent from '../components/CarouselComponent'
+
 //import axios from 'axios';
 //import { response } from 'express';
 
 //import plan from '../services/plans'
 //import { response } from 'express';
 export default {
+
+  components: {
+    CarouselComponent
+  }
 
  /* data(){
     return{
