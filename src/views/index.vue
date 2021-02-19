@@ -77,100 +77,176 @@
 
         </b-row>
 
-        
-
-        
-
-        
-
-        
-
         <b-row>
 
-          <b-col>
-
-            <label for="toggle-3">
-              <h3>Lojas</h3>
-          </label>
-          <input type="checkbox" id="toggle-3">
-          <div id="mostra">
-              <div>Avenida</div>
-              <div>Ginga Shopping</div>
-              <div>Xiame</div>
-              <div>Fortaleza</div>
-          </div>
-
+          <b-col cols="12" class="servico">
+            <h2>Shopping</h2>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            </p>
           </b-col>
 
-          <b-col>
+          <b-col cols="12">
+            <b-row>
+
+              <b-col>
+                
+                <div class="mt-3">
+                  <b-card-group deck>
+
+                    <b-card bg-variant="light" header="Xyami" class="text-center">
             
-            <label for="toggle-1">
-              <h3>Shopping</h3>
-          </label>
-          <input type="checkbox" id="toggle-1">
-          <div id="mostra">
-              <div>Avenida</div>
-              <div>Ginga Shopping</div>
-              <div>Xiame</div>
-              <div>Fortaleza</div>
-          </div>
+                      <b-card-text>
+                        
+                        <b-row>
+                          <b-col>
+                            <i class="fas fa-eye"></i>
+                          </b-col>
+                        </b-row>
 
-          </b-col>
+                      </b-card-text>
 
-          <b-col>
+                    </b-card>
+
+                    <b-card bg-variant="light" header="Atrium" class="text-center">
             
-            <label for="toggle-2">
-              <h3>Produtos</h3>
-          </label>
-          <input type="checkbox" id="toggle-2">
-          <div id="mostra">
-              <div>Avenida</div>
-              <div>Ginga Shopping</div>
-              <div>Xiame</div>
-              <div>Fortaleza</div>
-          </div>
+                      <b-card-text>
+                        <b-row>
+                          <b-col>
+                            <i class="fas fa-eye"></i>
+                          </b-col>
+                        </b-row>
+                      </b-card-text>
 
-          </b-col>
+                    </b-card>
 
-          <b-col>
+                    <b-card bg-variant="light" header="Fortaleza" class="text-center">
             
-            <label for="toggle-4">
-              <h3>Pontos Turísticos</h3>
-          </label>
-          <input type="checkbox" id="toggle-4">
-          <div id="mostra">
-              <div>Avenida</div>
-              <div>Ginga Shopping</div>
-              <div>Xiame</div>
-              <div>Fortaleza</div>
-          </div>
+            <b-card-text>
+              <a href="/loja">Venha conhecer as nossas lojas.</a>
+            </b-card-text>
+                    </b-card>
 
+                    <b-card bg-variant="light" header="Avenida" class="text-center">
+            
+                      <b-card-text>
+                        <a href="/loja">Venha conhecer as nossas lojas.</a>
+                      </b-card-text>
+
+                    </b-card>
+
+                  </b-card-group> <br>
+
+                </div>
+
+              </b-col>
+
+              
+
+              
+            </b-row>
           </b-col>
-          
-
-          
 
         </b-row>
 
         <b-row>
-          
-          
+
+          <b-col cols="12">
+            <h2>Espaço de lazer</h2>
+          </b-col>
+
+          <b-col cols="12">
+            <b-row>
+
+              <b-col>
+                <h4>Hotel Alvalade</h4>
+              </b-col>
+
+              <b-col>
+                <h4>Hotel Presidente</h4>
+              </b-col>
+
+              <b-col>
+                <h4>Hotel 1000 Estrelas</h4>
+              </b-col>
+
+              <b-col>
+                <h4>Hotel Mbange</h4>
+              </b-col>
+            </b-row>
+          </b-col>
 
         </b-row>
 
         <b-row>
-          
 
-          
+          <b-col cols="12">
+            <h2>Hoteis</h2>
+          </b-col>
+
+          <b-col cols="12">
+            <b-row>
+
+              <b-col>
+                <h4>Hotel Alvalade</h4>
+              </b-col>
+
+              <b-col>
+                <h4>Hotel Presidente</h4>
+              </b-col>
+
+              <b-col>
+                <h4>Hotel 1000 Estrelas</h4>
+              </b-col>
+
+              <b-col>
+                <h4>Hotel Mbange</h4>
+              </b-col>
+            </b-row>
+          </b-col>
 
         </b-row>
 
         <b-row>
-          
 
-          
+          <b-col cols="12">
+            <h2>Produtos</h2>
+          </b-col>
+
+          <b-col cols="12">
+            <b-row>
+
+              <b-col>
+                <h4>Hotel Alvalade</h4>
+              </b-col>
+
+              <b-col>
+                <h4>Hotel Presidente</h4>
+              </b-col>
+
+              <b-col>
+                <h4>Hotel 1000 Estrelas</h4>
+              </b-col>
+
+              <b-col>
+                <h4>Hotel Mbange</h4>
+              </b-col>
+            </b-row>
+          </b-col>
 
         </b-row>
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
 
         
     
@@ -257,6 +333,10 @@ export default {
 
   #toggle-4:checked ~ #mostra {
      display:block;
+  }
+
+  .servico{
+    text-align: center;
   }
 
 

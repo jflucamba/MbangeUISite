@@ -6,10 +6,18 @@
         
       <div class="mt-3">
         <b-card-group deck>
-          <b-card bg-variant="light" header="Belas Shopping" class="text-center">
+          <b-card bg-variant="light"  class="text-center card-largura">
             
             <b-card-text>
-              <a href="/loja">Venha conhecer as nossas lojas.</a>
+              <a href="/loja">Luanda</a>
+
+              <ul style="inline">
+                <li>Municípios</li>
+                <li>lojas</li>
+                <li>lojas</li>
+                <li>lojas</li>
+              </ul>
+              
             </b-card-text>
           </b-card>
 
@@ -97,5 +105,12 @@ export default {
 </script>
 
 <style scoped>
+ul li{
+  list-style: none;
+  display: inline;
+}
 
+.card-largura{
+  width: 75px;
+}
 </style>
