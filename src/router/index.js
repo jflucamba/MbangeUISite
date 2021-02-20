@@ -7,6 +7,7 @@ import LeisureSpace from '../views/leisureSpace.vue'
 import Shopping from '../views/shopping.vue'
 import ShoppingCounty from '../views/shoppingCounty.vue'
 import Loja from '../views/loja.vue'
+import Delivery from '../views/deliveryService/delivery.vue'
 
 Vue.use(VueRouter)
 
@@ -45,6 +46,11 @@ Vue.use(VueRouter)
     path:'/loja',
     name:'loja',
     component: Loja
+  },
+  {
+    path:'/delivery',
+    name:'delivery',
+    component: Delivery
   }
 
 ]

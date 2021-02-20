@@ -77,10 +77,145 @@
 
         </b-row>
 
-        <b-row>
+        <b-row id="services" class="mt-5" >
+          <b-col class="content-service ">
+            <a href="/delivery">
+              <i class="fas fa-truck fa-2x"></i>
+            </a>
+
+            <p>
+              Serviço de entrega
+            </p>
+            
+            
+          </b-col>
+
+          <b-col class="content-service">
+            
+            <a href="#">
+              <i class="fas fa-exchange-alt fa-2x"></i>
+            </a>
+            
+            <p>
+              Política de Devolução
+            </p>
+            
+              
+            
+            
+          </b-col>
+          <b-col class="content-service">
+            
+            <a href="#">
+              <i class="fas fa-headset fa-2x"></i>
+            </a>
+              
+            
+            <p>
+              Suporte 24 horas por dia
+            </p>
+            
+          </b-col>
+          <b-col class="content-service">
+            
+            <a href="#">
+              <i class="fab fa-cc-amazon-pay fa-2x"></i>
+            </a>
+              
+            
+            <p>
+              Compras seguras
+            </p>
+            
+          </b-col>
+        </b-row>
+
+        <b-row class="mt-5">
 
           <b-col cols="12" class="servico">
             <h2>Shopping</h2>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            </p>
+          </b-col>
+
+          <b-col cols="12">
+            <b-row>
+
+              <b-col>
+                
+                <div class="mt-3">
+                  <b-card-group deck>
+
+                    <b-card bg-variant="light" header="Xyami" class="text-center">
+            
+                      <b-card-text>
+                        
+                        <b-row>
+                          <b-col>
+                            <i class="fas fa-eye"></i>
+                            
+                          </b-col>
+                        </b-row>
+
+                      </b-card-text>
+
+                    </b-card>
+
+                    <b-card bg-variant="light" header="Atrium" class="text-center">
+            
+                      <b-card-text>
+                        <b-row>
+                          <b-col>
+                            <i class="fas fa-eye"></i>
+                          </b-col>
+                        </b-row>
+                      </b-card-text>
+
+                    </b-card>
+
+                    <b-card bg-variant="light" header="Fortaleza" class="text-center">
+            
+                      <b-card-text>
+                        <b-row>
+                          <b-col>
+                            <i class="fas fa-eye"></i>
+                          </b-col>
+                        </b-row>
+                      </b-card-text>
+
+                    </b-card>
+
+                    <b-card bg-variant="light" header="Avenida" class="text-center">
+            
+                      <b-card-text>
+                        <b-row>
+                          <b-col>
+                            <i class="fas fa-eye"></i>
+                          </b-col>
+                        </b-row>
+                      </b-card-text>
+
+                    </b-card>
+
+                  </b-card-group> <br>
+
+                </div>
+
+              </b-col>
+
+              
+
+              
+            </b-row>
+          </b-col>
+
+        </b-row>
+
+        <b-row class="mt-5">
+
+          <b-col cols="12" class="servico">
+            <h2>Hoteis</h2>
             <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting industry.
             </p>
@@ -122,15 +257,24 @@
 
                     <b-card bg-variant="light" header="Fortaleza" class="text-center">
             
-            <b-card-text>
-              <a href="/loja">Venha conhecer as nossas lojas.</a>
-            </b-card-text>
+                      <b-card-text>
+                        <b-row>
+                          <b-col>
+                            <i class="fas fa-eye"></i>
+                          </b-col>
+                        </b-row>
+                      </b-card-text>
+
                     </b-card>
 
                     <b-card bg-variant="light" header="Avenida" class="text-center">
             
                       <b-card-text>
-                        <a href="/loja">Venha conhecer as nossas lojas.</a>
+                        <b-row>
+                          <b-col>
+                            <i class="fas fa-eye"></i>
+                          </b-col>
+                        </b-row>
                       </b-card-text>
 
                     </b-card>
@@ -149,88 +293,164 @@
 
         </b-row>
 
-        <b-row>
+        <b-row class="mt-5">
 
-          <b-col cols="12">
+          <b-col cols="12" class="servico">
             <h2>Espaço de lazer</h2>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            </p>
           </b-col>
 
           <b-col cols="12">
             <b-row>
 
               <b-col>
-                <h4>Hotel Alvalade</h4>
+                
+                <div class="mt-3">
+                  <b-card-group deck>
+
+                    <b-card bg-variant="light" header="Queda de Calandula" class="text-center">
+            
+                      <b-card-text>
+                        
+                        <b-row>
+                          <b-col>
+                            <i class="fas fa-eye"></i>
+                            
+                          </b-col>
+                        </b-row>
+
+                      </b-card-text>
+
+                    </b-card>
+
+                    <b-card bg-variant="light" header="Cristo Rei" class="text-center">
+            
+                      <b-card-text>
+                        <b-row>
+                          <b-col>
+                            <i class="fas fa-eye"></i>
+                          </b-col>
+                        </b-row>
+                      </b-card-text>
+
+                    </b-card>
+
+                    <b-card bg-variant="light" header="Rio Zambeze" class="text-center">
+            
+                      <b-card-text>
+                        <b-row>
+                          <b-col>
+                            <i class="fas fa-eye"></i>
+                          </b-col>
+                        </b-row>
+                      </b-card-text>
+
+                    </b-card>
+
+                    <b-card bg-variant="light" header="Largo primeiro de Maio" class="text-center">
+            
+                      <b-card-text>
+                        <b-row>
+                          <b-col>
+                            <i class="fas fa-eye"></i>
+                          </b-col>
+                        </b-row>
+                      </b-card-text>
+
+                    </b-card>
+
+                  </b-card-group> <br>
+
+                </div>
+
               </b-col>
 
-              <b-col>
-                <h4>Hotel Presidente</h4>
-              </b-col>
+              
 
-              <b-col>
-                <h4>Hotel 1000 Estrelas</h4>
-              </b-col>
-
-              <b-col>
-                <h4>Hotel Mbange</h4>
-              </b-col>
+              
             </b-row>
           </b-col>
 
         </b-row>
 
-        <b-row>
+        <b-row class="mt-5">
 
-          <b-col cols="12">
-            <h2>Hoteis</h2>
-          </b-col>
-
-          <b-col cols="12">
-            <b-row>
-
-              <b-col>
-                <h4>Hotel Alvalade</h4>
-              </b-col>
-
-              <b-col>
-                <h4>Hotel Presidente</h4>
-              </b-col>
-
-              <b-col>
-                <h4>Hotel 1000 Estrelas</h4>
-              </b-col>
-
-              <b-col>
-                <h4>Hotel Mbange</h4>
-              </b-col>
-            </b-row>
-          </b-col>
-
-        </b-row>
-
-        <b-row>
-
-          <b-col cols="12">
+          <b-col cols="12" class="servico">
             <h2>Produtos</h2>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            </p>
           </b-col>
 
           <b-col cols="12">
             <b-row>
 
               <b-col>
-                <h4>Hotel Alvalade</h4>
+                
+                <div class="mt-3">
+                  <b-card-group deck>
+
+                    <b-card bg-variant="light" header="Xyami" class="text-center">
+            
+                      <b-card-text>
+                        
+                        <b-row>
+                          <b-col>
+                            <i class="fas fa-eye"></i>
+                          </b-col>
+                        </b-row>
+
+                      </b-card-text>
+
+                    </b-card>
+
+                    <b-card bg-variant="light" header="Atrium" class="text-center">
+            
+                      <b-card-text>
+                        <b-row>
+                          <b-col>
+                            <i class="fas fa-eye"></i>
+                          </b-col>
+                        </b-row>
+                      </b-card-text>
+
+                    </b-card>
+
+                    <b-card bg-variant="light" header="Fortaleza" class="text-center">
+            
+                      <b-card-text>
+                        <b-row>
+                          <b-col>
+                            <i class="fas fa-eye"></i>
+                          </b-col>
+                        </b-row>
+                      </b-card-text>
+
+                    </b-card>
+
+                    <b-card bg-variant="light" header="Avenida" class="text-center">
+            
+                      <b-card-text>
+                        <b-row>
+                          <b-col>
+                            <i class="fas fa-eye"></i>
+                          </b-col>
+                        </b-row>
+                      </b-card-text>
+
+                    </b-card>
+
+                  </b-card-group> <br>
+
+                </div>
+
               </b-col>
 
-              <b-col>
-                <h4>Hotel Presidente</h4>
-              </b-col>
+              
 
-              <b-col>
-                <h4>Hotel 1000 Estrelas</h4>
-              </b-col>
-
-              <b-col>
-                <h4>Hotel Mbange</h4>
-              </b-col>
+              
             </b-row>
           </b-col>
 
@@ -238,17 +458,7 @@
 
         
 
-        
-
-        
-
-        
-
-        
-
-        
-
-        
+                
     
     </b-container>    
    
@@ -267,12 +477,10 @@ export default {
       }
     },
     methods: {
-      /*onSlideStart(slide) {
-        this.sliding = true
-      },
-      onSlideEnd(slide) {
-        this.sliding = false
-      }*/
+      
+    },
+    mounted(){
+      
     }
   }
 </script>
@@ -339,6 +547,25 @@ export default {
     text-align: center;
   }
 
+  #services{
+    height: 100%;    
+  }
+
+.content-service{
+    background: white;
+  
+  text-align: center;
+  padding: 30px 0 10px 0;
+}
+
+.textos{
+  text-align: center;
+}
+
+.content-service a{
+  text-decoration: none;
+  color: gray;
+}
 
 
 </style>

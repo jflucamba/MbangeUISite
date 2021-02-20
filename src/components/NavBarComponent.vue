@@ -12,7 +12,7 @@
         <b-nav-item to="/">Home</b-nav-item>
         <b-nav-item to="/shopping">Shopping</b-nav-item>
         <b-nav-item to="/leisureSpace">Guia Turístico</b-nav-item>
-        <b-nav-item to="/plan">Planos</b-nav-item>
+        <!--b-nav-item-- to="/plan">Planos</!--b-nav-item-->
         <b-nav-item to="/contact">Contacto</b-nav-item>
         
       </b-navbar-nav>
