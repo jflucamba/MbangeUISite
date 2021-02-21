@@ -17,8 +17,7 @@
                 img-width="100%"
                 img-height="180"
                 style="text-shadow: 1px 1px 2px #333;"
-                @sliding-start="onSlideStart"
-                @sliding-end="onSlideEnd">
+                >
 
 
               <!-- Text slides with image -->
@@ -90,7 +89,7 @@
             
           </b-col>
 
-          <b-col class="content-service">
+          <b-col class="content-service" style=" border-left:1px solid #666" >
             
             <a href="#">
               <i class="fas fa-exchange-alt fa-2x"></i>
@@ -104,7 +103,8 @@
             
             
           </b-col>
-          <b-col class="content-service">
+
+          <b-col class="content-service" style=" border-left:1px solid #666">
             
             <a href="#">
               <i class="fas fa-headset fa-2x"></i>
@@ -116,7 +116,8 @@
             </p>
             
           </b-col>
-          <b-col class="content-service">
+
+          <b-col class="content-service" style=" border-left:1px solid #666">
             
             <a href="#">
               <i class="fab fa-cc-amazon-pay fa-2x"></i>
@@ -153,7 +154,9 @@
                         
                         <b-row>
                           <b-col>
-                            <i class="fas fa-eye"></i>
+                            <a href="/store">
+                              <i class="fas fa-eye"></i>
+                            </a>
                             
                           </b-col>
                         </b-row>
@@ -167,7 +170,9 @@
                       <b-card-text>
                         <b-row>
                           <b-col>
-                            <i class="fas fa-eye"></i>
+                            <a href="/store">
+                              <i class="fas fa-eye"></i>
+                            </a>
                           </b-col>
                         </b-row>
                       </b-card-text>
@@ -179,7 +184,9 @@
                       <b-card-text>
                         <b-row>
                           <b-col>
-                            <i class="fas fa-eye"></i>
+                            <a href="/store">
+                              <i class="fas fa-eye"></i>
+                            </a>
                           </b-col>
                         </b-row>
                       </b-card-text>
@@ -191,7 +198,9 @@
                       <b-card-text>
                         <b-row>
                           <b-col>
-                            <i class="fas fa-eye"></i>
+                            <a href="/store">
+                              <i class="fas fa-eye"></i>
+                            </a>
                           </b-col>
                         </b-row>
                       </b-card-text>
@@ -235,7 +244,7 @@
                         
                         <b-row>
                           <b-col>
-                            <i class="fas fa-eye"></i>
+                            <i class="fas fa-hotel"></i>
                           </b-col>
                         </b-row>
 
@@ -248,7 +257,7 @@
                       <b-card-text>
                         <b-row>
                           <b-col>
-                            <i class="fas fa-eye"></i>
+                            <i class="fas fa-hotel"></i>
                           </b-col>
                         </b-row>
                       </b-card-text>
@@ -260,7 +269,7 @@
                       <b-card-text>
                         <b-row>
                           <b-col>
-                            <i class="fas fa-eye"></i>
+                            <i class="fas fa-hotel"></i>
                           </b-col>
                         </b-row>
                       </b-card-text>
@@ -272,7 +281,7 @@
                       <b-card-text>
                         <b-row>
                           <b-col>
-                            <i class="fas fa-eye"></i>
+                            <i class="fas fa-hotel"></i>
                           </b-col>
                         </b-row>
                       </b-card-text>
@@ -305,70 +314,39 @@
           <b-col cols="12">
             <b-row>
 
-              <b-col>
+              <b-col cols="8">
                 
-                <div class="mt-3">
-                  <b-card-group deck>
+                <b-row>
+                  
+                  <b-col cols="7">
+                    validar
+                  </b-col>
 
-                    <b-card bg-variant="light" header="Queda de Calandula" class="text-center">
-            
-                      <b-card-text>
-                        
-                        <b-row>
-                          <b-col>
-                            <i class="fas fa-eye"></i>
-                            
-                          </b-col>
-                        </b-row>
+                  <b-col cols="5">
+                    visa
+                  </b-col>
 
-                      </b-card-text>
+                </b-row>
 
-                    </b-card>
+                <b-row>
+                  
+                  <b-col>
+                    baixa
+                  </b-col>
 
-                    <b-card bg-variant="light" header="Cristo Rei" class="text-center">
-            
-                      <b-card-text>
-                        <b-row>
-                          <b-col>
-                            <i class="fas fa-eye"></i>
-                          </b-col>
-                        </b-row>
-                      </b-card-text>
+                  <b-col>
+                    isso
+                  </b-col>
 
-                    </b-card>
-
-                    <b-card bg-variant="light" header="Rio Zambeze" class="text-center">
-            
-                      <b-card-text>
-                        <b-row>
-                          <b-col>
-                            <i class="fas fa-eye"></i>
-                          </b-col>
-                        </b-row>
-                      </b-card-text>
-
-                    </b-card>
-
-                    <b-card bg-variant="light" header="Largo primeiro de Maio" class="text-center">
-            
-                      <b-card-text>
-                        <b-row>
-                          <b-col>
-                            <i class="fas fa-eye"></i>
-                          </b-col>
-                        </b-row>
-                      </b-card-text>
-
-                    </b-card>
-
-                  </b-card-group> <br>
-
-                </div>
+                </b-row>
 
               </b-col>
 
-              
+              <b-col cols="4">
+                
+                <h5>Conheça nossas sugestões</h5>
 
+              </b-col>
               
             </b-row>
           </b-col>
@@ -388,73 +366,166 @@
             <b-row>
 
               <b-col>
+                <b-row>
+                  <b-col>
+                    <b-img left src="https://picsum.photos/125/125/?image=58" alt="Left image"></b-img>
+                  </b-col>
+                </b-row>
+                <b-row>
+                  <b-col>
+                    <h6>$520,00</h6>
+                    
+                  </b-col>
+                </b-row>
+                <b-row class="detalhes-produto">
+                  <b-col>
+                    <i class="fas fa-cart-plus"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-money-check-alt"></i>
+                    <i class="fas fa-eye"></i>
+                  </b-col>
+                </b-row>
+              </b-col>
+
+              <b-col>
                 
-                <div class="mt-3">
-                  <b-card-group deck>
-
-                    <b-card bg-variant="light" header="Xyami" class="text-center">
-            
-                      <b-card-text>
-                        
-                        <b-row>
-                          <b-col>
-                            <i class="fas fa-eye"></i>
-                          </b-col>
-                        </b-row>
-
-                      </b-card-text>
-
-                    </b-card>
-
-                    <b-card bg-variant="light" header="Atrium" class="text-center">
-            
-                      <b-card-text>
-                        <b-row>
-                          <b-col>
-                            <i class="fas fa-eye"></i>
-                          </b-col>
-                        </b-row>
-                      </b-card-text>
-
-                    </b-card>
-
-                    <b-card bg-variant="light" header="Fortaleza" class="text-center">
-            
-                      <b-card-text>
-                        <b-row>
-                          <b-col>
-                            <i class="fas fa-eye"></i>
-                          </b-col>
-                        </b-row>
-                      </b-card-text>
-
-                    </b-card>
-
-                    <b-card bg-variant="light" header="Avenida" class="text-center">
-            
-                      <b-card-text>
-                        <b-row>
-                          <b-col>
-                            <i class="fas fa-eye"></i>
-                          </b-col>
-                        </b-row>
-                      </b-card-text>
-
-                    </b-card>
-
-                  </b-card-group> <br>
-
-                </div>
+                <b-row>
+                  <b-col>
+                    <b-img left src="https://picsum.photos/125/125/?image=58" alt="Left image"></b-img>
+                  </b-col>
+                </b-row>
+                <b-row>
+                  <b-col>
+                    <h6>$520,00</h6>
+                    
+                  </b-col>
+                </b-row>
+                <b-row class="detalhes-produto">
+                  <b-col>
+                    <i class="fas fa-cart-plus"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-money-check-alt"></i>
+                    <i class="fas fa-eye"></i>
+                  </b-col>
+                </b-row>
 
               </b-col>
 
-              
+              <b-col>
+                
+                <b-row>
+                  <b-col>
+                    <b-img left src="https://picsum.photos/125/125/?image=58" alt="Left image"></b-img>
+                  </b-col>
+                </b-row>
+                <b-row>
+                  <b-col>
+                    <h6>$520,00</h6>
+                    
+                  </b-col>
+                </b-row>
+                <b-row class="detalhes-produto">
+                  <b-col>
+                    <i class="fas fa-cart-plus"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-money-check-alt"></i>
+                    <i class="fas fa-eye"></i>
+                  </b-col>
+                </b-row>
 
-              
+              </b-col>
+
+              <b-col>
+                
+                <b-row>
+                  <b-col>
+                    <b-img left src="https://picsum.photos/125/125/?image=58" alt="Left image"></b-img>
+                  </b-col>
+                </b-row>
+                <b-row>
+                  <b-col>
+                    <h6>$520,00</h6>
+                    
+                  </b-col>
+                </b-row>
+                <b-row class="detalhes-produto">
+                  <b-col>
+                    <i class="fas fa-cart-plus"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-money-check-alt"></i>
+                    <i class="fas fa-eye"></i>
+                  </b-col>
+                </b-row>
+
+              </b-col>
+
+              <b-col>
+                
+                <b-row>
+                  <b-col>
+                    <b-img left src="https://picsum.photos/125/125/?image=58" alt="Left image"></b-img>
+                  </b-col>
+                </b-row>
+                <b-row>
+                  <b-col>
+                    <h6>$520,00</h6>
+                    
+                  </b-col>
+                </b-row>
+                <b-row class="detalhes-produto">
+                  <b-col>
+                    <i class="fas fa-cart-plus"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-money-check-alt"></i>
+                    <i class="fas fa-eye"></i>
+                  </b-col>
+                </b-row>
+
+              </b-col>
+
+              <b-col>
+                
+                <b-row>
+                  <b-col>
+                    <b-img left src="https://picsum.photos/125/125/?image=58" alt="Left image"></b-img>
+                  </b-col>
+                </b-row>
+                <b-row>
+                  <b-col>
+                    <h6>$520,00</h6>
+                    
+                  </b-col>
+                </b-row>
+                <b-row class="detalhes-produto">
+                  <b-col>
+                    <i class="fas fa-cart-plus"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-money-check-alt"></i>
+                    <i class="fas fa-eye"></i>
+                  </b-col>
+                </b-row>
+
+              </b-col>
+
             </b-row>
+
+            
+
+            
           </b-col>
 
         </b-row>
+
+        <!--b-row>
+          <b-col>
+            <div id="example-2">
+              
+              <button v-on:click="greet">Cumprimentar</button>
+            </div>
+          </b-col>
+        </b-row-->
+
+        
 
         
 
@@ -473,11 +544,20 @@ export default {
     data() {
       return {
         slide: 0,
-        sliding: null
+        sliding: null,
+        name: 'Vue.js'
       }
+      
     },
     methods: {
-      
+        greet: function (event) {
+          // `this` dentro de métodos aponta para a instância Vue
+          alert('Olá ' + this.name + '!')
+          // `event` é o evento DOM nativo
+          if (event) {
+            alert(event.target.tagName)
+          }
+      }
     },
     mounted(){
       
@@ -486,6 +566,10 @@ export default {
 </script>
 
 <style scoped>
+
+#home{
+  background: #ccc;
+}
 
     #testar-grid{
         background-color: red;
@@ -545,6 +629,7 @@ export default {
 
   .servico{
     text-align: center;
+    
   }
 
   #services{
@@ -567,5 +652,37 @@ export default {
   color: gray;
 }
 
+.description-product{
+  
+  float: left;
+}
+
+
+
+.description-product ul li{
+  list-style: none;
+  display: inline;
+}
+
+.cor-icone{
+  color: blue;
+  
+}
+
+#testar-lista{
+  border: green solid 2px;
+}
+
+#testar-lista ul li{
+  list-style: none;
+}
+
+.detalhes-produto{
+  color:black;
+}
+
+.detalhes-produto ul li{
+  list-style: none;
+}
 
 </style>

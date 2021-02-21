@@ -11,32 +11,19 @@
 
               <h3>Mbange</h3>
 
-              <ul >
-                <li>
-                  <a href="#">
+              <a href="#">
                     App Mbnage
-                  </a>
-                </li>
-
-                <li>
+                  </a> <br>
                   <a href="/shopping">
                     Shopping
-                  </a>
-                </li>
-
-                <li>
+                  </a> <br>
                   <a href="#">
                     Futuro
-                  </a>
-                </li>
-
-                <li>
+                  </a> <br>
                   <a href="#">
                     Whatsapp
                   </a>
-                </li>
-
-              </ul>
+              
             
             </b-col > 
 

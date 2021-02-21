@@ -8,6 +8,7 @@ import Shopping from '../views/shopping.vue'
 import ShoppingCounty from '../views/shoppingCounty.vue'
 import Loja from '../views/loja.vue'
 import Delivery from '../views/deliveryService/delivery.vue'
+import Store from '../views/store.vue'
 
 Vue.use(VueRouter)
 
@@ -51,6 +52,11 @@ Vue.use(VueRouter)
     path:'/delivery',
     name:'delivery',
     component: Delivery
+  },
+  {
+    path:'/store',
+    name:'store',
+    component:Store
   }
 
 ]

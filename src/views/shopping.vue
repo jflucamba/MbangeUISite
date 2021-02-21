@@ -9,85 +9,129 @@
           <b-card bg-variant="light"  class="text-center card-largura">
             
             <b-card-text>
-              <a href="/loja">Luanda</a>
-
-              <ul style="inline">
-                <li>Municípios</li>
-                <li>lojas</li>
-                <li>lojas</li>
-                <li>lojas</li>
-              </ul>
-              
+              <a href="/shoppingCounty">Luanda</a>
             </b-card-text>
           </b-card>
 
-          <b-card bg-variant="light" header="Avenida" class="text-center">
+          <b-card bg-variant="light"  class="text-center card-largura">
             
             <b-card-text>
-              <a href="/loja">Venha conhecer as nossas lojas.</a>
+              <a href="/shoppingCounty">Benguela</a>
             </b-card-text>
-
           </b-card>
 
-          <b-card bg-variant="light" header="Fortaleza" class="text-center">
+          <b-card bg-variant="light"  class="text-center card-largura">
             
             <b-card-text>
-              <a href="/loja">Venha conhecer as nossas lojas.</a>
+              <a href="/shoppingCounty">Huíla</a>
+            </b-card-text>
+          </b-card>
+
+          <b-card bg-variant="light"  class="text-center card-largura">
+            
+            <b-card-text>
+              <a href="/shoppingCounty">Huambo</a>
+            </b-card-text>
+          </b-card>
+
+        </b-card-group> <br>
+
+        
+        <b-card-group deck>
+          <b-card bg-variant="light"  class="text-center card-largura">
+            
+            <b-card-text>
+              <a href="/shoppingCounty">Malanje</a>
+            </b-card-text>
+          </b-card>
+
+          <b-card bg-variant="light"  class="text-center card-largura">
+            
+            <b-card-text>
+              <a href="/shoppingCounty">Cabinda</a>
+            </b-card-text>
+          </b-card>
+
+          <b-card bg-variant="light"  class="text-center card-largura">
+            
+            <b-card-text>
+              <a href="/shoppingCounty">Namibe</a>
+            </b-card-text>
+          </b-card>
+
+          <b-card bg-variant="light"  class="text-center card-largura">
+            
+            <b-card-text>
+              <a href="/shoppingCounty">Bengo</a>
             </b-card-text>
           </b-card>
 
         </b-card-group> <br>
 
         <b-card-group deck>
-          <b-card bg-variant="light" header="Ginga Shopping" class="text-center">
+          <b-card bg-variant="light"  class="text-center card-largura">
             
             <b-card-text>
-              <a href="/loja">Venha conhecer as nossas lojas.</a>
+              <a href="/loja">Lunda-Sul</a>
             </b-card-text>
           </b-card>
 
-          <b-card bg-variant="light" header="Xyami" class="text-center">
+          <b-card bg-variant="light"  class="text-center card-largura">
             
             <b-card-text>
-              <a href="/loja">Venha conhecer as nossas lojas.</a>
+              <a href="/loja">Lunda-Norte</a>
             </b-card-text>
           </b-card>
 
-          <b-card bg-variant="light" header="Kilamba Shopping" class="text-center">
+          <b-card bg-variant="light"  class="text-center card-largura">
             
             <b-card-text>
-              <a href="/loja">Venha conhecer as nossas lojas.</a>
+              <a href="/loja">Cuanza-Sul</a>
             </b-card-text>
           </b-card>
 
-        </b-card-group>
+          <b-card bg-variant="light"  class="text-center card-largura">
+            
+            <b-card-text>
+              <a href="/loja">Cuanza-Norte</a>
+            </b-card-text>
+          </b-card>
 
-        <br>
+        </b-card-group> <br>
 
         <b-card-group deck>
-          <b-card bg-variant="light" header="Atrium " class="text-center">
+          <b-card bg-variant="light"  class="text-center card-largura">
             
             <b-card-text>
-              <a href="/loja">Venha conhecer as nossas lojas.</a>
+              <a href="/loja">Luanda</a>
             </b-card-text>
           </b-card>
 
-          <b-card bg-variant="light" header="Kibabo" class="text-center">
+          <b-card bg-variant="light"  class="text-center card-largura">
             
             <b-card-text>
-              <a href="/loja">Venha conhecer as nossas lojas.</a>
+              <a href="/loja">Benguela</a>
             </b-card-text>
           </b-card>
 
-          <b-card bg-variant="light" header="Viana Shopping" class="text-center">
+          <b-card bg-variant="light"  class="text-center card-largura">
             
             <b-card-text>
-              <a href="/loja">Venha conhecer as nossas lojas.</a>
+              <a href="/loja">Huíla</a>
             </b-card-text>
           </b-card>
 
-        </b-card-group>
+          <b-card bg-variant="light"  class="text-center card-largura">
+            
+            <b-card-text>
+              <a href="/loja">Huambo</a>
+            </b-card-text>
+          </b-card>
 
+        </b-card-group> <br>
+        
+
+        
 
       </div>
 
@@ -113,4 +157,16 @@ ul li{
 .card-largura{
   width: 75px;
 }
+
+#box{
+	/*definimos a largura do box*/
+	width:100%;
+	/* definimos a altura do box */
+	height:100px;
+	/* definimos a cor de fundo do box */
+	background-color:#666;
+	/* definimos o quão arredondado irá ficar nosso box */
+	border-radius: 10px;
+	}
+
 </style>

@@ -3,57 +3,136 @@
         
         <b-container>
 
-            <div>
-                <b-card-group deck>
-
-                    <a >
-                        <b-card bg-variant="primary" text-variant="white" header="Belas" class="text-center">
-                            <b-card-text>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</b-card-text>
-                        </b-card>
-                    </a>
-
-                    <b-card bg-variant="secondary" text-variant="white" header="Viana" class="text-center">
-                      <b-card-text>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</b-card-text>
-                    </b-card>
-
-                    <b-card bg-variant="success" text-variant="white" header="Cazenga" class="text-center">
-                      <b-card-text>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</b-card-text>
-                    </b-card>
+            <div class="mt-3">
+        <b-card-group deck>
+          <b-card bg-variant="light"  class="text-center card-largura">
             
-                </b-card-group>
-            </div>
+            <b-card-text>
+              <a href="/store">Cazenga</a>
+            </b-card-text>
+          </b-card>
 
-            <div class="mt-3">
-                <b-card-group deck>
-                    <b-card bg-variant="info" text-variant="white" header="Kilamba-Kiaxe" class="text-center">
-                        <b-card-text>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</b-card-text>
-                    </b-card>
+          <b-card bg-variant="light"  class="text-center card-largura">
+            
+            <b-card-text>
+              <a href="/store">Belas</a>
+            </b-card-text>
+          </b-card>
 
-                    <b-card bg-variant="warning" text-variant="white" header="Cacuaco" class="text-center">
-                        <b-card-text>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</b-card-text>
-                    </b-card>
+          <b-card bg-variant="light"  class="text-center card-largura">
+            
+            <b-card-text>
+              <a href="/store">Viana</a>
+            </b-card-text>
+          </b-card>
 
-                    <b-card bg-variant="danger" text-variant="white" header="Talatona" class="text-center">
-                        <b-card-text>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</b-card-text>
-                    </b-card>
-                </b-card-group>
-            </div>
+          <b-card bg-variant="light"  class="text-center card-largura">
+            
+            <b-card-text>
+              <a href="/store">Talatona</a>
+            </b-card-text>
+          </b-card>
 
-            <div class="mt-3">
-                <b-card-group deck>
-                    <b-card bg-variant="light" header="Icolo e Bengo" class="text-center">
-                        <b-card-text>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</b-card-text>
-                    </b-card>
+        </b-card-group> <br>
 
-                    <b-card bg-variant="dark" header="Kissama" text-variant="white" class="text-center">
-                        <b-card-text>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</b-card-text>
-                    </b-card>
+        
+        <b-card-group deck>
+          <b-card bg-variant="light"  class="text-center card-largura">
+            
+            <b-card-text>
+              <a href="/store">Kilamba-Kiaxi</a>
+            </b-card-text>
+          </b-card>
 
-                    <b-card header="Luanda" class="text-center">
-                        <b-card-text>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</b-card-text>
-                    </b-card>
-                </b-card-group>
-            </div>
+          <b-card bg-variant="light"  class="text-center card-largura">
+            
+            <b-card-text>
+              <a href="/store">Luanda</a>
+            </b-card-text>
+          </b-card>
+
+          <b-card bg-variant="light"  class="text-center card-largura">
+            
+            <b-card-text>
+              <a href="/store">Icolo e Bengo</a>
+            </b-card-text>
+          </b-card>
+
+          <b-card bg-variant="light"  class="text-center card-largura">
+            
+            <b-card-text>
+              <a href="/store">Kissama</a>
+            </b-card-text>
+          </b-card>
+
+        </b-card-group> <br>
+
+        <b-card-group deck>
+          <b-card bg-variant="light"  class="text-center card-largura">
+            
+            <b-card-text>
+              <a href="/loja">Cacuaco</a>
+            </b-card-text>
+          </b-card>
+
+          <b-card bg-variant="light"  class="text-center card-largura">
+            
+            <b-card-text>
+              <a href="/loja">Benguela</a>
+            </b-card-text>
+          </b-card>
+
+          <b-card bg-variant="light"  class="text-center card-largura">
+            
+            <b-card-text>
+              <a href="/loja">Huíla</a>
+            </b-card-text>
+          </b-card>
+
+          <b-card bg-variant="light"  class="text-center card-largura">
+            
+            <b-card-text>
+              <a href="/loja">Huambo</a>
+            </b-card-text>
+          </b-card>
+
+        </b-card-group> <br>
+
+        <b-card-group deck>
+          <b-card bg-variant="light"  class="text-center card-largura">
+            
+            <b-card-text>
+              <a href="/loja">Luanda</a>
+            </b-card-text>
+          </b-card>
+
+          <b-card bg-variant="light"  class="text-center card-largura">
+            
+            <b-card-text>
+              <a href="/loja">Benguela</a>
+            </b-card-text>
+          </b-card>
+
+          <b-card bg-variant="light"  class="text-center card-largura">
+            
+            <b-card-text>
+              <a href="/loja">Huíla</a>
+            </b-card-text>
+          </b-card>
+
+          <b-card bg-variant="light"  class="text-center card-largura">
+            
+            <b-card-text>
+              <a href="/loja">Huambo</a>
+            </b-card-text>
+          </b-card>
+
+        </b-card-group> <br>
+        
+
+        
+
+      </div>
 
       </b-container>
 
