@@ -167,9 +167,15 @@ export default {
     
   }
 
+  #footer-master a{
+    text-decoration: none;
+    color: white;
+    
+  }
+
 
 #mbange{
-  color: red;
+  color: #fff  ;
 }
 
 

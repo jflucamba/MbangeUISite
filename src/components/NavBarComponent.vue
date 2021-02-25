@@ -1,14 +1,14 @@
 <template>
   <div>
-  <b-navbar toggleable="lg" type="primary" variant="dark">
+  <b-navbar toggleable="lg" type="dark" variant="dark">
     <b-navbar-brand id="logo" to="/">
-      <h1><a to="/">Mbange</a></h1>
+      <img src="../static/LogoMbange.jpg">
     </b-navbar-brand>
 
     <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
     <b-collapse id="nav-collapse" is-nav>
-      <b-navbar-nav>
+      <b-navbar-nav id="nav-color">
         <b-nav-item to="/">Home</b-nav-item>
         <b-nav-item to="/shopping">Shopping</b-nav-item>
         <b-nav-item to="/leisureSpace">Guia Turístico</b-nav-item>
@@ -36,7 +36,7 @@
           <template #button-content>
             <em>User</em>
           </template>
-          <b-dropdown-item v-b-modal.modal-1 href="#">Login</b-dropdown-item>
+          <b-dropdown-item  href="#">Login</b-dropdown-item>
           <b-dropdown-item href="#">Profile</b-dropdown-item>
           <b-dropdown-item href="#">Sign Out</b-dropdown-item>
 
@@ -130,6 +130,15 @@ export default {
 <style scoped>
   #logo{
     color: red;
+  }
+
+.nav-color:hover{
+  color: orange;
+}
+
+  #logo img{
+    width: 100px;
+    height: 70px;
   }
 
   /* placeholder */

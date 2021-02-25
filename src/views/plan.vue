@@ -5,7 +5,7 @@
 
       <b-row>
         <b-col>
-          <carousel-component />
+          <!--carrossel-teste-component /-->
         </b-col>
       </b-row>
 
@@ -101,6 +101,14 @@
 
       </b-row>
 
+      <!--b-row>
+        <b-col>
+          <button @click="mudarCor" @mouseenter="exibirTexto">
+            Mudar cor
+          </button>
+        </b-col>
+      </b-row-->
+
     
     </b-container>   
 
@@ -110,7 +118,8 @@
 
 <script>
 
-import CarouselComponent from '../components/CarouselComponent'
+//import CarouselComponent from '../components/CarouselComponent'
+//import CarrosselTesteComponent from '../components/CarrosselTesteComponent'
 
 //import axios from 'axios';
 //import { response } from 'express';
@@ -120,7 +129,17 @@ import CarouselComponent from '../components/CarouselComponent'
 export default {
 
   components: {
-    CarouselComponent
+    /*CarouselComponent,
+    CarrosselTesteComponent*/
+  },
+
+  methods:{
+    /*mudarCor: function(){
+      console.log('chamando evento!')
+    },
+    exibirTexto: function(){
+      MessageEvent.toString("Localização");
+    }*/
   }
 
  /* data(){

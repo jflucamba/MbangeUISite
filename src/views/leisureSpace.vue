@@ -113,7 +113,7 @@
                         </b-col>
                     </!--b-row-->
 
-                    <b-row >
+                    <b-row class="mt-5">
                         <b-col cols="3">
                             icone
                         </b-col>
@@ -130,56 +130,7 @@
 
             </b-row>
 
-            <b-row id="agendar" class="mt-3"> 
-
-              <b-col>
-                  <h4>Hotel</h4>
-
-                  <p>
-                      If you are going to use a passage of Lorem Ipsum, 
-                      you need to be sure there isn't anything embarrassing 
-                      hidden in the middle of text.
-                  </p>
-
-              </b-col>
-
-
-              <b-col>
-                  <h4>Resourt</h4>
-
-                  <p>
-                      If you are going to use a passage of Lorem Ipsum, 
-                      you need to be sure there isn't anything embarrassing 
-                      hidden in the middle of text.
-                  </p>
-
-              </b-col> 
-
-
-              <b-col >
-                  <h4>Paisagens</h4>
-
-                  <p>
-                      If you are going to use a passage of Lorem Ipsum, 
-                      you need to be sure there isn't anything embarrassing 
-                      hidden in the middle of text.
-                  </p>
-
-              </b-col> 
-
-
-              <b-col>
-                  <h4>Hospedaria</h4>
-
-                  <p>
-                      If you are going to use a passage of Lorem Ipsum, 
-                      you need to be sure there isn't anything embarrassing 
-                      hidden in the middle of text.
-                  </p>
-
-              </b-col>
-
-            </b-row>
+            
 
         </b-container>
 

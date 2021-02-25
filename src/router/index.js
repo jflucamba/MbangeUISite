@@ -9,6 +9,9 @@ import ShoppingCounty from '../views/shoppingCounty.vue'
 import Loja from '../views/loja.vue'
 import Delivery from '../views/deliveryService/delivery.vue'
 import Store from '../views/store.vue'
+import NaturalLandscape from '../views/landscape/naturalLandscape.vue'
+
+
 
 Vue.use(VueRouter)
 
@@ -57,6 +60,11 @@ Vue.use(VueRouter)
     path:'/store',
     name:'store',
     component:Store
+  },
+  {
+    path:'/naturalLandscape',
+    name:'naturalLandscape',
+    component: NaturalLandscape
   }
 
 ]

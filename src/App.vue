@@ -39,7 +39,7 @@ export default {
 <style scoped>
 
   #app{
-    background-color: #DCDCDC;
+    background-color: #fff;
         
   }
 
