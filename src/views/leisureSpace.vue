@@ -147,11 +147,11 @@
 
 <script>
 
-import MenuCarouselComponent from '../components/MenuCarouselComponent'
+//import MenuCarouselComponent from '../components/MenuCarouselComponent'
 
 export default {
     components:{
-        MenuCarouselComponent
+        //MenuCarouselComponent
     },
     data(){
         return {

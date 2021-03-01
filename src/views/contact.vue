@@ -146,11 +146,11 @@
 
 
 <script>
-    import OwlCarouselComponent from '../components/OwlCarouselComponent'
+    //import OwlCarouselComponent from '../components/OwlCarouselComponent'
     export default {
         name: 'Contact',
         components: {
-          OwlCarouselComponent
+          //OwlCarouselComponent
         }
 
     }
