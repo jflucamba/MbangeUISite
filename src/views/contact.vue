@@ -130,6 +130,12 @@
         </b-row>
 
         <hr>
+
+        <!--b-row>
+            <b-col>
+                <owl-carousel-component/>
+            </b-col>
+        </!--b-row-->
        
        
 
@@ -140,9 +146,14 @@
 
 
 <script>
-export default {
-    
-}
+    import OwlCarouselComponent from '../components/OwlCarouselComponent'
+    export default {
+        name: 'Contact',
+        components: {
+          OwlCarouselComponent
+        }
+
+    }
 </script>
 
 <style scoped>

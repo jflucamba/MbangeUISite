@@ -10,37 +10,37 @@
 
             <b-row class="imagem-galeria mt-3">
               <b-col >
-                <a href="/store"><img src="../static/atriumShopping.jpg"></a>
+                <a href="/store"><img src="../../static/atriumShopping.jpg"></a>
               </b-col>
               <b-col >
               
-                <a href="/store"><img src="../static/avenidaShopping.jpg"></a>
+                <a href="/store"><img src="../../static/avenidaShopping.jpg"></a>
               </b-col>
               <b-col >
               
-                <a href="/store"><img src="../static/fortalezaShopping.jpg"></a>
+                <a href="/store"><img src="../../static/fortalezaShopping.jpg"></a>
               </b-col>
               <b-col >
               
-                <a href="/store"><img src="../static/xyamiShopping.jpg"></a>
+                <a href="/store"><img src="../../static/xyamiShopping.jpg"></a>
               </b-col>
             </b-row>
 
             <b-row class="imagem-galeria mt-2 mb-3">
               <b-col >
-                <a href="/store"><img src="../static/fortalezaShopping.jpg"></a>
+                <a href="/store"><img src="../../static/fortalezaShopping.jpg"></a>
               </b-col>
               <b-col >
               
-                <a href="/store"><img src="../static/atriumShopping.jpg"></a>
+                <a href="/store"><img src="../../static/atriumShopping.jpg"></a>
               </b-col>
               <b-col >
               
-                <a href="/store"><img src="../static/xyamiShopping.jpg"></a>
+                <a href="/store"><img src="../../static/xyamiShopping.jpg"></a>
               </b-col>
               <b-col >
               
-                <a href="/store"><img src="../static/avenidaShopping.jpg"></a>
+                <a href="/store"><img src="../../static/avenidaShopping.jpg"></a>
               </b-col>
             </b-row>
         </b-container>

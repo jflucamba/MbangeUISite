@@ -4,12 +4,16 @@ import Index from '../views/index.vue'
 import Contact from '../views/contact.vue'
 import Plan from '../views/plan.vue'
 import LeisureSpace from '../views/leisureSpace.vue'
-import Shopping from '../views/shopping.vue'
-import ShoppingCounty from '../views/shoppingCounty.vue'
-import Loja from '../views/loja.vue'
+import Shopping from '../views/shopping/shopping.vue'
+import Province from '../views/province.vue'
+import County from '../views/county.vue'
+import ShoppingCounty from '../views/shopping/shoppingCounty.vue'
+import Loja from '../views/store/loja.vue'
 import Delivery from '../views/deliveryService/delivery.vue'
-import Store from '../views/store.vue'
+import Store from '../views/store/store.vue'
 import NaturalLandscape from '../views/landscape/naturalLandscape.vue'
+import ShoppingList from '../views/shopping/shoppingList.vue'
+import ShoppingStore from '../views/shopping/shoppingStore.vue'
 
 
 
@@ -65,6 +69,26 @@ Vue.use(VueRouter)
     path:'/naturalLandscape',
     name:'naturalLandscape',
     component: NaturalLandscape
+  },
+  {
+    path:'/province',
+    name:'province',
+    component: Province
+  },
+  {
+    path:'/county',
+    name:'county',
+    component: County
+  },
+  {
+    path:'/shoppingList',
+    name:'shoppingList',
+    component:ShoppingList
+  },
+  {
+    path:'/shoppingStore',
+    name:'shoppingStore',
+    component:ShoppingStore
   }
 
 ]

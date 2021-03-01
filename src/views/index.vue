@@ -135,9 +135,7 @@
 
           <b-col cols="12" class="servico">
             <h2>Shopping</h2>
-            <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-            </p>
+            
           </b-col>
 
           <b-col cols="12">
@@ -321,7 +319,7 @@
 
         </b-row-->
 
-        <b-row class="mt-1" id="teste">
+        <b-row class="mt-1 mb-4" id="teste">
 
           <b-col cols="12" id="servico-lazer">
             <h2>Conheça e desfrute das nossas paisagens naturais</h2>

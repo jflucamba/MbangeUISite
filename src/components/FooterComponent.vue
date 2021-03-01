@@ -12,7 +12,7 @@
               <h3>Mbange</h3>
 
               <a href="#">
-                    App Mbnage
+                    App Mbange
                   </a> <br>
                   <a href="/shopping">
                     Shopping

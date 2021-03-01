@@ -130,6 +130,12 @@
 
             </b-row>
 
+            <!--b-row>
+                <b-col>
+                    <menu-carousel-component/>
+                </b-col>
+            </!--b-row-->
+
             
 
         </b-container>
@@ -140,7 +146,13 @@
 
 
 <script>
+
+import MenuCarouselComponent from '../components/MenuCarouselComponent'
+
 export default {
+    components:{
+        MenuCarouselComponent
+    },
     data(){
         return {
             imagem_hotel: 'src/static/Resourt-188153847.jpg',
