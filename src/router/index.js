@@ -14,6 +14,7 @@ import Store from '../views/store/store.vue'
 import NaturalLandscape from '../views/landscape/naturalLandscape.vue'
 import ShoppingList from '../views/shopping/shoppingList.vue'
 import ShoppingStore from '../views/shopping/shoppingStore.vue'
+import SuperMarket from '../views/store/superMarket.vue'
 
 
 
@@ -89,6 +90,11 @@ Vue.use(VueRouter)
     path:'/shoppingStore',
     name:'shoppingStore',
     component:ShoppingStore
+  },
+  {
+    path:'/superMarket',
+    name:'superMarket',
+    component:SuperMarket
   }
 
 ]

@@ -1,6 +1,6 @@
 <template>
 
-  <div>
+  <div id="">
 
     <b-container>              
         
@@ -135,7 +135,11 @@
 
       </div>
 
+      
     </b-container>
+
+
+    
         
   </div>
 
@@ -143,12 +147,26 @@
 
 
 <script>
+
+import api from '@/services/api'
 export default {
-    
+    data(){
+      return{
+        province:[]
+      }
+    },
+    mounted(){
+       api.get('/province.json').then(response => {
+         console(response.data.province)
+           //this.province= response.data.province;
+       });
+   }
 }
 </script>
 
 <style scoped>
+
+
 ul li{
   list-style: none;
   display: inline;
@@ -158,15 +176,10 @@ ul li{
   width: 75px;
 }
 
-#box{
-	/*definimos a largura do box*/
-	width:100%;
-	/* definimos a altura do box */
-	height:100px;
-	/* definimos a cor de fundo do box */
-	background-color:#666;
-	/* definimos o quão arredondado irá ficar nosso box */
-	border-radius: 10px;
-	}
+
+
+
+
+
 
 </style>

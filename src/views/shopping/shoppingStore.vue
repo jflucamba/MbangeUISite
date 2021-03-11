@@ -18,7 +18,7 @@
                   <b-col cols="12">
                     <b-row>
                       <b-col cols="4" class="tipos-lojas">
-                        <a href="#">
+                        <a href="/superMarket">
                           <img src="../../static/superMercado.jpg">
                           <h6>Super mercado</h6>
                         </a>

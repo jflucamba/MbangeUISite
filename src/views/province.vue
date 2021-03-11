@@ -1,208 +1,155 @@
 <template>
 
-  <div id="province">
+  <div id="province" class="province">
 
-    <b-container>              
-        
-      <b-row class="mt-3">
+    <b-container>
 
-        <b-col>
+      <b-row class="detalhe-provincia">
 
-          
-            <b-card-group deck>
+        <b-col class="mais-detalhes">
+          <div class="texto">
+            <a href="/county">Luanda</a>
+          </div>
+        </b-col>
 
+        <b-col class="mais-detalhes">
+          <div class="texto">
+            <a href="/county">Benguela</a>
+          </div>
+        </b-col>
+
+        <b-col class="mais-detalhes">
+          <div class="texto">
+            <a href="/county">Huíla</a>
+          </div>
+        </b-col>
+
+        <b-col class="mais-detalhes">
+          <div class="texto">
             
-              <b-card bg-variant="light"  class="text-center card-largura">
+            <a href="/county">Huambo</a>
 
-              <b-card-text>
-                <a href="/county">Luanda</a>
-              </b-card-text>
-            </b-card>
-            
-
-                    
-            
-
-            <b-card bg-variant="light"  class="text-center card-largura">
-
-              <b-card-text>
-                <a href="/county">Benguela</a>
-              </b-card-text>
-            </b-card>
-
-            <b-card bg-variant="light"  class="text-center card-largura">
-
-              <b-card-text>
-                <a href="/county">Huíla</a>
-              </b-card-text>
-            </b-card>
-
-            <b-card bg-variant="light"  class="text-center card-largura">
-
-              <b-card-text>
-                <a href="/county">Huambo</a>
-              </b-card-text>
-            </b-card>
-
-          </b-card-group>
-          
-
+          </div>
         </b-col>
 
       </b-row>
 
-      <b-row class="mt-2">
+      <b-row class="detalhe-provincia">
 
-        <b-col>
+        <b-col class="mais-detalhes">
+          <div class="texto">
+            <a href="/county">Malanje</a>
+          </div>
+        </b-col>
 
-          <b-card-group deck>
-          <b-card bg-variant="light"  class="text-center card-largura">
+        <b-col class="mais-detalhes">
+          <div class="texto">
+            <a href="/county">Cuanza-Sul</a>
+          </div>
+        </b-col>
+
+        <b-col class="mais-detalhes">
+          <div class="texto">
+            <a href="/county">Cuanza-Norte</a>
+          </div>
+        </b-col>
+
+        <b-col class="mais-detalhes">
+          <div class="texto">
             
-            <b-card-text>
-              <a href="/county">Malanje</a>
-            </b-card-text>
-          </b-card>
+            <a href="/county">Bengo</a>
 
-          <b-card bg-variant="light"  class="text-center card-largura">
-            
-            <b-card-text>
-              <a href="/county">Cabinda</a>
-            </b-card-text>
-          </b-card>
-
-          <b-card bg-variant="light"  class="text-center card-largura">
-            
-            <b-card-text>
-              <a href="/county">Namibe</a>
-            </b-card-text>
-          </b-card>
-
-          <b-card bg-variant="light"  class="text-center card-largura">
-            
-            <b-card-text>
-              <a href="/county">Bengo</a>
-            </b-card-text>
-          </b-card>
-
-        </b-card-group>
-
+          </div>
         </b-col>
 
       </b-row>
 
-      <b-row class="mt-2">
-        
-        <b-col>
+      <b-row class="detalhe-provincia">
 
-          <b-card-group deck>
-            <b-card bg-variant="light"  class="text-center card-largura">
+        <b-col class="mais-detalhes">
+          <div class="texto">
+            <a href="/county">Bié</a>
+          </div>
+        </b-col>
 
-              <b-card-text>
-                <a href="/county">Lunda-Sul</a>
-              </b-card-text>
-            </b-card>
+        <b-col class="mais-detalhes">
+          <div class="texto">
+            <a href="/county">Uíge</a>
+          </div>
+        </b-col>
 
-            <b-card bg-variant="light"  class="text-center card-largura">
+        <b-col class="mais-detalhes">
+          <div class="texto">
+            <a href="/county">Namibe</a>
+          </div>
+        </b-col>
 
-              <b-card-text>
-                <a href="/county">Lunda-Norte</a>
-              </b-card-text>
-            </b-card>
+        <b-col class="mais-detalhes">
+          <div class="texto">
+            
+            <a href="/county">Cabinda</a>
 
-            <b-card bg-variant="light"  class="text-center card-largura">
-
-              <b-card-text>
-                <a href="/county">Cuanza-Sul</a>
-              </b-card-text>
-            </b-card>
-
-            <b-card bg-variant="light"  class="text-center card-largura">
-
-              <b-card-text>
-                <a href="/county">Cuanza-Norte</a>
-              </b-card-text>
-            </b-card>
-
-          </b-card-group> 
-
+          </div>
         </b-col>
 
       </b-row>
 
-      <b-row class="mt-2">
+      <b-row class="detalhe-provincia">
 
-        <b-col>
+        <b-col class="mais-detalhes">
+          <div class="texto">
+            <a href="/county">Zaire</a>
+          </div>
+        </b-col>
 
-        <b-card-group deck>
-          <b-card bg-variant="light"  class="text-center card-largura">
+        <b-col class="mais-detalhes">
+          <div class="texto">
+            <a href="/county">Lunda-Norte</a>
+          </div>
+        </b-col>
+
+        <b-col class="mais-detalhes">
+          <div class="texto">
+            <a href="/county">Lunda-Sul</a>
+          </div>
+        </b-col>
+
+        <b-col class="mais-detalhes">
+          <div class="texto">
             
-            <b-card-text>
-              <a href="/county">Uíge</a>
-            </b-card-text>
-          </b-card>
+            <a href="/county">Móxico</a>
 
-          <b-card bg-variant="light"  class="text-center card-largura">
-            
-            <b-card-text>
-              <a href="/county">Móxico</a>
-            </b-card-text>
-          </b-card>
-
-          <b-card bg-variant="light"  class="text-center card-largura">
-            
-            <b-card-text>
-              <a href="/county">Cunené</a>
-            </b-card-text>
-          </b-card>
-
-          <b-card bg-variant="light"  class="text-center card-largura">
-            
-            <b-card-text>
-              <a href="/county">Zaire</a>
-            </b-card-text>
-          </b-card>
-
-        </b-card-group>       
-
+          </div>
         </b-col>
 
       </b-row>
 
-      <b-row class="mt-2">
+      <b-row class="detalhe-provincia">
 
-        <b-col>
+        <b-col class="mais-detalhes">
+          <div class="texto">
+            <a href="/county">Cuando-Cubango</a>
+          </div>
+        </b-col>
 
-          <b-card-group deck class="mt-2 mb-2">
-          <b-card bg-variant="light"  class="text-center card-largura">
+        <b-col class="mais-detalhes">
+          <div class="texto">
+            <a href="/county">Cunené</a>
+          </div>
+        </b-col>
+
+        <b-col class="mais-detalhes visibilidade">
+          <div class="texto">
+            <a href="/county">Huíla</a>
+          </div>
+        </b-col>
+
+        <b-col class="mais-detalhes visibilidade">
+          <div class="texto">
             
-            <b-card-text>
-              <a href="/county">Cuando-Cubango</a>
-            </b-card-text>
-          </b-card>
+            <a href="/county">Huambo</a>
 
-          <b-card bg-variant="light"  class="text-center card-largura">
-            
-            <b-card-text>
-              <a href="/county">Bié</a>
-            </b-card-text>
-          </b-card>
-
-          <b-card bg-variant="light"  class="text-center card-largura visivel">
-            
-            <b-card-text>
-              <a href="/county">Huíla</a>
-            </b-card-text>
-          </b-card>
-
-          <b-card bg-variant="light"  class="text-center card-largura visivel">
-            
-            <b-card-text>
-              <a href="/county">Huambo</a>
-            </b-card-text>
-          </b-card>
-
-        </b-card-group> 
-
+          </div>
         </b-col>
 
       </b-row>
@@ -215,8 +162,21 @@
 
 
 <script>
+
+import api from '@/services/api'
+
 export default {
-    
+    data(){
+      return{
+        province:[]
+      }
+    },
+    mounted(){
+       api.get('/province.json').then(response => {
+         console(response.data.province)
+           //this.province= response.data.province;
+       });
+   }
 }
 </script>
 
@@ -226,23 +186,152 @@ ul li{
   display: inline;
 }
 
-.card-largura{
-  width: 75px;
+#province{
+  margin: 0 auto;
+  padding: 0;
 }
 
-#box{
-	/*definimos a largura do box*/
-	width:100%;
-	/* definimos a altura do box */
-	height:100px;
-	/* definimos a cor de fundo do box */
-	background-color:#666;
-	/* definimos o quão arredondado irá ficar nosso box */
-	border-radius: 10px;
-	}
+.province{
+  width: 100%;
+}
 
-.visivel{
+.container-province{
+  
+  font-size: xx-small;
+}
+
+.detalhe-provincia{
+  /*background-color: red;*/
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center
+}
+
+.mais-detalhes{
+  
+  justify-content: center;
+  align-items: center;
+  margin: 5px auto;
+}
+
+.mais-detalhes div{
+  background-color:#6f42c1;
+  width: 100%;
+  height: 70px;
+  border-radius: 3%;
+  
+}
+
+.texto{
+  text-align: center;  
+  padding-top: 25px;
+  justify-content: center;
+  align-items: center
+}
+
+.mais-detalhes .texto a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.visibilidade{
   visibility: hidden;
 }
+
+
+
+/* RESPONSIVIDADE */
+
+/*@mixin for-phone-only {*/
+  @media (max-width: 599px) { 
+    
+      #province{
+      
+    }
+
+   }
+
+
+/*}*/
+
+
+/*@mixin for-tablet-portrait-up {*/
+  @media (min-width: 600px) { 
+
+    #province{
+      
+    }
+
+
+  
+
+  .card-largura{
+    width: 75px;
+    
+  }
+
+  .province{
+    width: 100%;
+  }
+
+  .container-province{
+  display: flex;
+  
+  width: 100%;
+  font-size: 16px;
+  
+  }
+
+
+}
+
+
+/*}*/
+
+
+/*@mixin for-tablet-landscape-up {*/
+
+
+  @media (min-width: 900px) { 
+
+    #province{
+      
+    }
+
+   }
+
+
+/*}*/
+
+
+/*@mixin for-desktop-up {*/
+
+
+  @media (min-width: 1200px) { 
+
+      #province{
+      
+    }
+
+   }
+
+
+/*}*/
+
+
+/*@mixin for-big-desktop-up {*/
+
+
+  @media (min-width: 1800px) { 
+
+    #province{
+      
+    }
+
+   }
+
+
+/*}*/
 
 </style>

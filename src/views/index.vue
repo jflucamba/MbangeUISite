@@ -148,9 +148,9 @@
                       <img src="../static/avenidaShopping.jpg" alt="">
                       <div class="conteudo">
                           <p class="nome-secao">Avenida Shopping</p>
-                          <a href="/loja" class="btn-new">Ver mais</a>
+                          <a href="/shoppingStore" class="btn-new">Ver mais</a>
                           <!--p class="descricao">Ver mais</!p-->
-                          <!--a-- href="/loja" class="btn-more">Ver mais</!--a-->
+                          <!--a-- href="/shoppingStore" class="btn-more">Ver mais</!--a-->
                       </div>
                   </li>
                     
@@ -165,9 +165,9 @@
                         <img src="../static/fortalezaShopping.jpg" alt="">
                         <div class="conteudo">
                             <p class="nome-secao">Fortaleza Shopping</p>
-                            <a href="/loja" class="btn-new">Ver mais</a>
+                            <a href="/shoppingStore" class="btn-new">Ver mais</a>
                             <!--p class="descricao">O seu shopping movel</!--p>
-                            <a-- href="/loja" class="btn-more">Ver mais</a-->
+                            <a-- href="/shoppingStore" class="btn-more">Ver mais</a-->
                         </div>
                     </li>
 
@@ -182,9 +182,9 @@
                       <img src="../static/atriumShopping.jpg" alt="">
                       <div class="conteudo">
                           <p class="nome-secao">Atrium Shopping</p>
-                          <a href="/loja" class="btn-new">Ver mais</a>
+                          <a href="/shoppingStore" class="btn-new">Ver mais</a>
                             <!--p class="descricao">O seu shopping movel</!--p>
-                            <a-- href="/loja" class="btn-more">Ver mais</a-->
+                            <a-- href="/shoppingStore" class="btn-more">Ver mais</a-->
                       </div>
                   </li>
                     
@@ -199,9 +199,9 @@
                         <img src="../static/xyamiShopping.jpg" alt="">
                         <div class="conteudo">
                             <p class="nome-secao">Xyami Shopping</p>
-                            <a href="/loja" class="btn-new">Ver mais</a>
+                            <a href="/shoppingStore" class="btn-new">Ver mais</a>
                             <!--p class="descricao">O seu shopping movel</!--p>
-                            <a-- href="/loja" class="btn-more">Ver mais</a-->
+                            <a-- href="/shoppingStore" class="btn-more">Ver mais</a-->
                         </div>
                     </li>
 

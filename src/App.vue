@@ -12,12 +12,7 @@
 
       </b>
 
-      <!--b-row>
-        <b-col v-for="(poke, index) in pokemons" :key="index">
-          <h1>{{index+1}} {{poke.name}}</h1>
-          <pokemon :name="poke.name" :url="poke.url" :num="index+1"/>
-        </b-col>
-      </b-row-->
+      
 
       <b>
 
@@ -29,6 +24,7 @@
 </template>
 
 <script>
+
 import axios from 'axios'
 import NavBarComponent from './components/NavBarComponent'
 import FooterComponent from './components/FooterComponent'
@@ -68,6 +64,8 @@ export default {
 </script>
 
 <style scoped>
+
+  
 
   #app{
     background-color: #fff;

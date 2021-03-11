@@ -1,138 +1,80 @@
 <template>
     <div id="county">
         
-        <b-container>
+      <b-container class="county">
 
-            <div class="mt-3">
-        <b-card-group deck>
-          <b-card bg-variant="light"  class="text-center card-largura">
-            
-            <b-card-text>
-              <a href="/shoppingList">Cazenga</a>
-            </b-card-text>
-          </b-card>
+        <b-row class="detalhe-provincia">
 
-          <b-card bg-variant="light"  class="text-center card-largura">
-            
-            <b-card-text>
-              <a href="/shoppingList">Belas</a>
-            </b-card-text>
-          </b-card>
+          <b-col class="mais-detalhes">
+            <div class="texto">
+              <a :href="link">Luanda</a>
+            </div>
+          </b-col>
 
-          <b-card bg-variant="light"  class="text-center card-largura">
-            
-            <b-card-text>
-              <a href="/shoppingList">Viana</a>
-            </b-card-text>
-          </b-card>
+          <b-col class="mais-detalhes">
+            <div class="texto">
+              <a :href="link">Viana</a>
+            </div>
+          </b-col>
 
-          <b-card bg-variant="light"  class="text-center card-largura">
-            
-            <b-card-text>
-              <a href="/shoppingList">Talatona</a>
-            </b-card-text>
-          </b-card>
+          <b-col class="mais-detalhes">
+            <div class="texto">
+              <a :href="link">Belas</a>
+            </div>
+          </b-col>
 
-        </b-card-group> <br>
-
-        
-        <b-card-group deck>
-          <b-card bg-variant="light"  class="text-center card-largura">
-            
-            <b-card-text>
-              <a href="/shoppingList">Kilamba-Kiaxi</a>
-            </b-card-text>
-          </b-card>
-
-          <b-card bg-variant="light"  class="text-center card-largura">
-            
-            <b-card-text>
-              <a href="/shoppingList">Luanda</a>
-            </b-card-text>
-          </b-card>
-
-          <b-card bg-variant="light"  class="text-center card-largura">
-            
-            <b-card-text>
-              <a href="/shoppingList">Icolo e Bengo</a>
-            </b-card-text>
-          </b-card>
-
-          <b-card bg-variant="light"  class="text-center card-largura">
-            
-            <b-card-text>
-              <a href="/shoppingList">Kissama</a>
-            </b-card-text>
-          </b-card>
-
-        </b-card-group> <br>
-
-        <b-card-group deck>
-          <b-card bg-variant="light"  class="text-center card-largura">
-            
-            <b-card-text>
-              <a href="/shoppingList">Cacuaco</a>
-            </b-card-text>
-          </b-card>
-
-          <b-card bg-variant="light"  class="text-center card-largura">
-            
-            <b-card-text>
-              <a href="/shoppingList">Benguela</a>
-            </b-card-text>
-          </b-card>
-
-          <b-card bg-variant="light"  class="text-center card-largura">
-            
-            <b-card-text>
-              <a href="/shoppingList">Huíla</a>
-            </b-card-text>
-          </b-card>
-
-          <b-card bg-variant="light"  class="text-center card-largura">
-            
-            <b-card-text>
-              <a href="/shoppingList">Huambo</a>
-            </b-card-text>
-          </b-card>
-
-        </b-card-group> <br>
-
-        <b-card-group deck>
-          <b-card bg-variant="light"  class="text-center card-largura">
-            
-            <b-card-text>
-              <a href="/shoppingList">Luanda</a>
-            </b-card-text>
-          </b-card>
-
-          <b-card bg-variant="light"  class="text-center card-largura">
-            
-            <b-card-text>
-              <a href="/shoppingList">Benguela</a>
-            </b-card-text>
-          </b-card>
-
-          <b-card bg-variant="light"  class="text-center card-largura">
-            
-            <b-card-text>
-              <a href="/shoppingList">Huíla</a>
-            </b-card-text>
-          </b-card>
-
-          <b-card bg-variant="light"  class="text-center card-largura">
-            
-            <b-card-text>
-              <a href="/shoppingList">Huambo</a>
-            </b-card-text>
-          </b-card>
-
-        </b-card-group> <br>
-        
+          
+        </b-row>
 
         
 
-      </div>
+        <b-row class="detalhe-provincia">
+
+          <b-col class="mais-detalhes">
+            <div class="texto">
+              <a :href="link">Cazenga</a>
+            </div>
+          </b-col>
+
+          <b-col class="mais-detalhes">
+            <div class="texto">
+              <a :href="link">Talatona</a>
+            </div>
+          </b-col>
+
+          <b-col class="mais-detalhes">
+            <div class="texto">
+              <a :href="link">Kilamba-Kiaxi</a>
+            </div>
+          </b-col>
+
+          
+        </b-row>
+
+        <b-row class="detalhe-provincia">
+
+          <b-col class="mais-detalhes">
+            <div class="texto">
+              <a :href="link">Cacuaco</a>
+            </div>
+          </b-col>
+
+          <b-col class="mais-detalhes">
+            <div class="texto">
+              <a :href="link">Icolo e Bengo</a>
+            </div>
+          </b-col>
+
+          <b-col class="mais-detalhes">
+            <div class="texto">
+              <a :href="link">Quissama</a>
+            </div>
+          </b-col>
+
+          
+        </b-row>
+
+        
 
       </b-container>
 
@@ -142,10 +84,60 @@
 
 <script>
 export default {
-    
+    data(){
+      return{
+        link:'/shoppingList'
+      }
+    }
 }
 </script>
 
 <style scoped>
+
+.county{
+  margin-top: 35px;
+  margin-bottom: 65px;
+}
+
+.detalhe-provincia{
+  /*background-color: red;*/
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center
+}
+
+.mais-detalhes{
+  
+  justify-content: center;
+  align-items: center;
+  margin: 5px auto;
+}
+
+.mais-detalhes div{
+  background-color:#6f42c1;
+  width: 100%;
+  height: 70px;
+  border-radius: 3%;
+  
+}
+
+.texto{
+  text-align: center;  
+  padding-top: 25px;
+  justify-content: center;
+  align-items: center
+}
+
+.mais-detalhes .texto a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.visibilidade{
+  visibility: hidden;
+}
+
+
 
 </style>
