@@ -3,11 +3,11 @@
         <b-container>
 
             
-            <b-row>
+            <b-row id="superMarket-body">
 
                 <b-col cols="3" class="mt-3 ">
-                    <b-row >
-                        
+
+                    <b-row >                        
                         
                         <b-col cols="12" class="">
                             
@@ -17,42 +17,38 @@
 
                                     <b-row>
                                         <b-col cols="12" class="detalhes-categoria">
-                                            <div class="titulo-market">categoria</div>
+                                            <div class="titulo-market-1">categoria</div>
                                         </b-col>
 
-                                        <b-col cols="12">
+                                        <b-col cols="12" class="lista-categorias">
 
                                             <ul>
-                                        <li>
-                                            <a href="">frutas e vegetais</a>
+                                                <li>
+                                                    <a href="">Frutas e Vegetais</a>
 
-                                            
-                                        </li>
+                                                    <hr>
 
-                                        <li>
-                                            <a href="">frutas e vegetais</a>
+                                                </li>
 
-                                            
-                                        </li>
+                                                <li>
+                                                    <a href="">Bebidas</a>
+                                                    <hr>
+                                                </li>
 
-                                        <li>
-                                            <a href="">frutas e vegetais</a>
+                                                <li>
+                                                    <a href="">Padaria</a>
+                                                    <hr>
+                                                </li>
 
-                                            
-                                        </li>
+                                                <li>
+                                                    <a href="">Higiene</a>
+                                                    <hr>
+                                                </li>
 
-                                        <li>
-                                            <a href="">frutas e vegetais</a>
-
-                                            
-                                        </li>
-
-                                        <li>
-                                            <a href="">frutas e vegetais</a>
-
-                                            
-                                        </li>
-                                    </ul>
+                                                <li>
+                                                    <a href="">Frios</a>
+                                                </li>
+                                            </ul>
 
                                         </b-col>
                                     </b-row>
@@ -63,47 +59,133 @@
 
                                     
 
-                                    <b-row>
+                                    <b-row class="mt-5">
+
                                         <b-col cols="12" class="detalhes-categoria">
                                             <div class="titulo-market">Filtros de produtos</div>
                                         </b-col>
 
                                         <b-col cols="12">
 
-                                            <ul>
-                                        <li>
-                                            <a href="">frutas e vegetais</a>
+                                            <b-row class="mt-3 lista-filtro">
 
-                                            
-                                        </li>
+                                                <b-col cols="12" class="">
+                                                    <div class="">Marcas</div>
+                                                </b-col>
 
-                                        <li>
-                                            <a href="">frutas e vegetais</a>
+                                                <b-col cols="12">
 
-                                            
-                                        </li>
+                                                    <ul>
+                                                        <li>
+                                                            <input type="radio" id="other" name="Samsung" value="apple">
+                                                            <label for="apple">Apple</label>
+                                                        </li>
 
-                                        <li>
-                                            <a href="">frutas e vegetais</a>
+                                                        <li>
+                                                            
+                                                            <input type="radio" id="other" name="Samsung" value="Samsung">
+                                                            <label for="apple">Samsung</label>
+                                                        </li>
 
-                                            
-                                        </li>
+                                                        <li>
+                                                            
+                                                            <input type="radio" id="other" name="Huawei" value="Huawei">
+                                                            <label for="apple">Huawei</label>
+                                                        </li>
 
-                                        <li>
-                                            <a href="">frutas e vegetais</a>
+                                                        <li>
+                                                            
+                                                            <input type="radio" id="other" name="Verde" value="Nokia">
+                                                            <label for="apple">Nokia</label>
+                                                        </li>
 
-                                            
-                                        </li>
+                                                        <li>
+                                                            
+                                                            <input type="radio" id="other" name="Asus" value="Asus">
+                                                            <label for="apple">Asus</label>
+                                                        </li>
+                                                    </ul>
 
-                                        <li>
-                                            <a href="">frutas e vegetais</a>
+                                                </b-col>
 
-                                            
-                                        </li>
-                                    </ul>
+                                                <b-col>
+                                                    <hr>
+                                                </b-col>
+
+                                            </b-row>
+
+                                            <b-row class="mt-2 lista-filtro">
+
+                                                <b-col cols="12" class="">
+                                                    <div class="">Cores</div>
+                                                </b-col>
+
+                                                <b-col cols="12">
+
+                                                    <ul>
+                                                        <li>
+                                                            <input type="radio" id="other" name="Preto" value="Preto">
+                                                            <label for="apple">Preto</label>
+                                                        </li>
+
+                                                        <li>
+                                                            
+                                                            <input type="radio" id="other" name="Azul" value="Azul">
+                                                            <label for="apple">Azul</label>
+                                                        </li>
+
+                                                        <li>
+                                                            
+                                                            <input type="radio" id="other" name="Vermelho" value="Vermelho">
+                                                            <label for="apple">Vermelho</label>
+                                                        </li>
+
+                                                        <li>
+                                                            
+                                                            <input type="radio" id="other" name="Verde" value="Verde">
+                                                            <label for="apple">Verde</label>
+                                                        </li>
+
+                                                        <li>
+                                                            
+                                                            <input type="radio" id="other" name="Branco" value="Branco">
+                                                            <label for="apple">Branco</label>
+                                                        </li>
+                                                    </ul>
+
+                                                </b-col>
+
+                                                <b-col>
+                                                    <hr>
+                                                </b-col>
+
+                                            </b-row>
+
+                                            <b-row>
+
+                                                <b-col cols="12" class="">
+                                                    <div class="">Preço</div>
+                                                </b-col>
+
+                                                <b-col cols="12">
+
+                                                    <input type="range" min="0" max="11" value="7" step="1">
+
+                                                </b-col>
+
+                                                <b-col>
+                                                    <hr>
+                                                </b-col>
+
+                                            </b-row>
 
                                         </b-col>
+
                                     </b-row>
+
+                                    
+
+                                    
 
                                 </b-col>
 
@@ -159,40 +241,117 @@
                     </b-row>
 
                     <b-row class="produto">
-                        <b-col>
-                            <img alt src="../../static/showSapato.jpg">
-                            <h6>Tenís</h6>
+                        <b-col class="produto-item">
+                            <div class="imagem">
+                                colocar imagem aqui
+                            </div>
+
+                            <div class="titulo">
+                                <h6>Tenís</h6>
+                            </div>
+                            
+                            
                         </b-col>
 
-                        <b-col>
-                            <img alt src="../../static/showSapato.jpg">
-                            <h6>Tenís</h6>
+                        <b-col class="produto-item">
+                            <!--img alt src="../../static/showSapato.jpg"-->
+                            <div class="imagem">
+                                colocar imagem aqui
+                            </div>
+
+                            <div class="titulo">
+                                <h6>Tenís</h6>
+                            </div>
                         </b-col>
 
-                        <b-col>
-                            <img alt src="../../static/showSapato.jpg">
-                            <h6>Tenís</h6>
+                        <b-col class="produto-item">
+                            <!--img alt src="../../static/showSapato.jpg"-->
+                            <div class="imagem">
+                                colocar imagem aqui
+                            </div>
+
+                            <div class="titulo">
+                                <h6>Tenís</h6>
+                            </div>
                         </b-col>
 
                     </b-row>
 
                     <b-row class="produto">
-                        <b-col>
-                            <img alt src="../../static/showSapato.jpg">
-                            <h6>Tenís</h6>
+                        <b-col class="produto-item">
+                            <div class="imagem">
+                                colocar imagem aqui
+                            </div>
+
+                            <div class="titulo">
+                                <h6>Tenís</h6>
+                            </div>
+                            
+                            
                         </b-col>
 
-                        <b-col>
-                            <img alt src="../../static/showSapato.jpg">
-                            <h6>Tenís</h6>
+                        <b-col class="produto-item">
+                            <!--img alt src="../../static/showSapato.jpg"-->
+                            <div class="imagem">
+                                colocar imagem aqui
+                            </div>
+
+                            <div class="titulo">
+                                <h6>Tenís</h6>
+                            </div>
                         </b-col>
 
-                        <b-col>
-                            <img alt src="../../static/showSapato.jpg">
-                            <h6>Tenís</h6>
+                        <b-col class="produto-item">
+                            <!--img alt src="../../static/showSapato.jpg"-->
+                            <div class="imagem">
+                                colocar imagem aqui
+                            </div>
+
+                            <div class="titulo">
+                                <h6>Tenís</h6>
+                            </div>
                         </b-col>
 
                     </b-row>
+
+                    <b-row class="produto">
+                        <b-col class="produto-item">
+                            <div class="imagem">
+                                colocar imagem aqui
+                            </div>
+
+                            <div class="titulo">
+                                <h6>Tenís</h6>
+                            </div>
+                            
+                            
+                        </b-col>
+
+                        <b-col class="produto-item">
+                            <!--img alt src="../../static/showSapato.jpg"-->
+                            <div class="imagem">
+                                colocar imagem aqui
+                            </div>
+
+                            <div class="titulo">
+                                <h6>Tenís</h6>
+                            </div>
+                        </b-col>
+
+                        <b-col class="produto-item">
+                            <!--img alt src="../../static/showSapato.jpg"-->
+                            <div class="imagem">
+                                colocar imagem aqui
+                            </div>
+
+                            <div class="titulo">
+                                <h6>Tenís</h6>
+                            </div>
+                        </b-col>
+
+                    </b-row>
+
+                    
                     
                 </b-col>
 
@@ -270,6 +429,13 @@ export default {
 </script>
 
 <style scoped>
+
+#superMarket{
+    font-family: Helvetica, sans-serif;
+}
+
+
+
 .imagem-galeria img{
     width: 100%;
     height: 100%;
@@ -279,8 +445,40 @@ export default {
     background-color: #6f42c1;
 }
 
+.titulo-market-1{
+    background-color: #6f42c1;
+    color: red;
+}
+
 .listas{
     margin-bottom: 250px;
+}
+
+.lista-categorias{
+    margin-top: 1px;
+    margin-bottom: 3px;
+}
+
+.lista-categorias ul{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  background: #FFFFFF;
+  border: 1px solid #e0e0e0;
+  box-shadow: 0 4px 4px -2px #989898;
+  -moz-box-shadow: 0 4px 4px -2px #989898;
+  -webkit-box-shadow: 0 4px 4px -2px #989898;  
+   
+}
+
+.lista-categorias ul li{
+    padding: 0 20px;
+}
+
+.lista-categorias ul li a{
+    text-decoration: none;
+    color: #000000;
+    font-family: Times, Times New Roman, serif;
 }
 
 .listando ui{
@@ -349,7 +547,7 @@ export default {
     
     height: 55px;
     color: #fff;
-    
+    padding-left: 20px;
     
 }
 
@@ -367,6 +565,18 @@ export default {
     background-color: cornflowerblue;
 }
 
+.produto-item{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.produto .imagem{
+    width: 100%;
+    height: 170px;
+    background-color: blueviolet;
+}
+
 .produto img{
     width: 100%;
     height: 50%;
@@ -378,29 +588,101 @@ export default {
 }
 
 
-
-.pagination ul {
-    display: inline-block;
-    padding: 0;
-    margin: 0;
+.lista-filtro{
+    padding-left: 20px;
 }
 
-.pagination ul li {display: inline;}
-
-.pagination ul li a {
-    color: black;
-    float: left;
-    padding: 8px 16px;
-    text-decoration: none;
-    border-radius: 5px;
+.lista-filtro ul{
+    margin-top: 10px;
 }
 
-.pagination ul li a.active {
-    background-color: #4CAF50;
-    color: white;
-    border-radius: 5px;
+
+.lista-filtro ul li input{
+    margin-right: 15px;
 }
 
-.pagination ul li a:hover:not(.active) {background-color: #ddd;}
+
+/* RESPONSIVIDADE */
+
+/*@mixin for-phone-only {*/
+@media (max-width: 599px) { 
+    
+    #superMarket-body{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .produto{
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+
+/*}*/
+
+
+/*@mixin for-tablet-portrait-up {*/
+@media (min-width: 600px) { 
+
+    #superMarket-body{
+    display: flex;
+    flex-direction: column;
+    }
+
+}
+
+
+/*}*/
+
+
+/*@mixin for-tablet-landscape-up {*/
+
+
+  @media (min-width: 900px) { 
+
+      #superMarket-body{
+    display: flex;
+    flex-direction: row;
+    }
+
+   }
+
+
+/*}*/
+
+
+/*@mixin for-desktop-up {*/
+
+
+  @media (min-width: 1200px) { 
+
+      #province{
+      
+    }
+
+   }
+
+
+/*}*/
+
+
+/*@mixin for-big-desktop-up {*/
+
+
+  @media (min-width: 1800px) { 
+
+    #province{
+      
+    }
+
+   }
+
+
+/*}*/
+
+
+
 
 </style>

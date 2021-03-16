@@ -1,75 +1,88 @@
 <template>
   <div id="app">
 
-    <b>        
-        <nav-bar-component />  
+    <menu-login/>
 
-      </b>
+    <div>
+      <menu-mbange/>
+    </div>
 
-      <b>
+    <div>
+      <router-view path="$router.key"/>
+    </div>
 
-        <router-view/>
+    
 
-      </b>
-
-      
-
-      <b>
-
-        <footer-component />
-
-      </b>
+    <div>
+      <footer-mbange/>
+    </div>    
 
   </div>
 </template>
 
 <script>
-
-import axios from 'axios'
-import NavBarComponent from './components/NavBarComponent'
-import FooterComponent from './components/FooterComponent'
-//import Pokemon from './components/Pokemon'
-//import Pokemon from './components/Pokemon'
-//import home from './views/home'
-//import Home from './views/home.vue'
-
+ import './styles/global.css';
+ import MenuMbange from '@/components/MenuMbange.vue'
+ import FooterMbange from '@/components/FooterMbange.vue'
+ import MenuLogin from '@/components/MenuLogin.vue'
+ 
+ 
+ 
 export default {
   name: 'App',
-  data(){
-    return{
-      pokemons:[]
-    }
-  },
   components: {
-    NavBarComponent,
-    FooterComponent
-    //Pokemon
+    MenuMbange,
+    FooterMbange,
+    MenuLogin,
     
-  },
-  created: function () {
-    axios.get("https://pokeapi.co/api/v2/pokemon?limit=151&offset=0").then(
-      res =>{
-        console.log("Pegou a lista");
-        this.pokemons=res.data.results;
-        console.log(this.pokemons)
-      }
-    )
-
-
-
-    console.log(axios);
-    console.log("teste");
+    
+    
+    
   }
 }
 </script>
 
-<style scoped>
+<style>
 
+#app{
+  color: var(--color-text-title);
+  display: flex;
+  flex-direction: column;
+}
+
+/*.menu{
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 2%;
+}
+
+header{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 9px 0;
+  text-align: center;
   
+  background: #DB354D  ;
+}
 
-  #app{
-    background-color: #fff;
-        
-  }
+header li{
+  display: inline-block;
+  margin: 0 10px;
+}
+
+header a{
+  text-decoration: none;
+  color: white;
+}
+
+.conteudo{
+  height: 2000px;
+}
+
+section.content{
+  margin-top: 40px;
+}*/
 
 </style>
