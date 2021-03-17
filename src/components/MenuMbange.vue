@@ -18,7 +18,7 @@
                 <li><a href="/province">Shopping</a></li>
                 <li><a>Guia Turístico</a></li>
                 
-                <li><a>Contacto</a></li>
+                <li><a href="/contact">Contacto</a></li>
               </ul>
             </nav>
           </div>

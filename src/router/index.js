@@ -6,6 +6,7 @@ import VueRouter from 'vue-router'
 import Index from '../pages/index.vue'
 import Province from '../pages/province.vue'
 import County from '../pages/county.vue'
+import Contact from '../pages/contact.vue'
 
 
 // ROTAS DA PASTA SHOPPING
@@ -32,6 +33,11 @@ const routes = [
         path:'/county',
         name:'county',
         component:County
+    },
+    {
+        path:'/contact',
+        name:'contact',
+        component:Contact
     },
     {
         path:'/shoppingList',
