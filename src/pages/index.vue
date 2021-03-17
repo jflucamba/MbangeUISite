@@ -242,7 +242,7 @@ export default {
         display: flex;
         flex-direction: column;
         padding: 0 55px;
-        border: 1px solid blue;
+        
         height: 450px;
         background-color: #fff;
     }
@@ -460,6 +460,7 @@ export default {
     .description-carousel p{
         margin-top: 60px;
         color: #777777;
+        display: inline-flex;
     }
     
     .service{
